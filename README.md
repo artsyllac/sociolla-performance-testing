@@ -44,3 +44,42 @@ Pengujian difokuskan pada 5 alur transaksi belanja bertahap:
 └── screenshots/                # Bukti grafik performa (JMeter Aggregate / Graph)
     ├── load_test_graph.png
     └── stress_test_graph.png
+```
+## ⚙️ Persyaratan Lingkungan (Prerequisites)
+
+- **Java Development Kit (JDK):** Version 11 or higher
+- **Apache JMeter:** Version 5.6.3 (CLI / GUI)
+- **OS:** Linux (Ubuntu / GitHub Codespaces) or Windows 10/11
+
+---
+
+## 🚀 Cara Menjalankan Script Pengujian (CLI Mode)
+
+Jalankan perintah berikut di terminal Linux / GitHub Codespaces:
+
+### 1. Eksekusi Load Testing (Beban Normal)
+```bash
+jmeter -n -t scripts/master/master_sociolla_flow.jmx -l results/load_test_result.jtl -e -o results/load_report_html
+```
+### 2. Eksekusi Stress Testing (Beban Ekstrem)
+```bash
+jmeter -n -t scripts/master/master_sociolla_flow.jmx -l results/stress_test_result.jtl -e -o results/stress_report_html
+```
+Catatan Etika: Pengujian ini dilakukan semata-mata untuk kebutuhan simulasi akademis dalam lingkungan pengujian yang aman (staging / dummy endpoints) dan tidak diarahkan ke server produksi tanpa izin eksplisit.
+### 3. File `.gitignore` (Mencegah File Sampah Di-upload)
+
+Buat file bernama `.gitignore` di *root directory* agar file *log* atau temporary JMeter tidak mengotori repositori:
+
+```text
+# JMeter Logs & Temp Files
+*.log
+jmeter.log
+*.jtl.tmp
+
+# OS / Editor Files
+.DS_Store
+.vscode/
+.idea/
+
+# Large Result Files (Optional if heavy)
+results/*_report_html/
