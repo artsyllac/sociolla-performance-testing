@@ -6,12 +6,10 @@ Dokumen dan repositori ini disusun untuk memenuhi **Tugas Praktikum Performance 
 
 ## 👥 Kelompok & Pembagian Tugas
 
-| NIM | Nama | Alur Scripting (JMeter) | 
-| :--- | :--- | :--- | :--- |
-| 2310512079 | Callysta Cendikia Diba Putri | Alur 1 (Login) & Alur 2 (Search) + *Master Integration* |
-| 2310512158 | Muhammad Okto Syaifudi | Alur 3 (Cart) | 
-| 2310512071 | Shabrina Rahmania | Alur 4 (Checkout) |
-| 2310512088 | Muhammad Rafi Pramana | Alur 5 (Payment) |
+- 2310512079  Callysta Cendikia Diba Putri -> Alur 1 (Login) & Alur 2 (Search) + Master Integration
+- 2310512158  Muhammad Okto Syaifudi -> Alur 3 (Cart) 
+- 2310512071  Shabrina Rahmania -> Alur 4 (Checkout) 
+- 2310512088  Muhammad Rafi Pramana -> Alur 5 (Payment) 
 
 ---
 
