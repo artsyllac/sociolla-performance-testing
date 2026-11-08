@@ -1,12 +1,13 @@
 # JMeter Logs & Temp Files
 *.log
 jmeter.log
+*.jtl
 *.jtl.tmp
+
+# Generated HTML Reports
+results/*_report_html/
 
 # OS / Editor Files
 .DS_Store
 .vscode/
 .idea/
-
-# Large Result Files (Optional if heavy)
-results/*_report_html/
