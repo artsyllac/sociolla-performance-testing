@@ -1,7 +1,6 @@
 # JMeter Logs & Temp Files
 *.log
 jmeter.log
-*.jtl
 *.jtl.tmp
 
 # Generated HTML Reports
