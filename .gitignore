@@ -10,3 +10,4 @@ jmeter.log
 
 # Large Result Files (Optional if heavy)
 results/*_report_html/
+results/
