@@ -75,7 +75,7 @@
           </collectionProp>
         </HeaderManager>
         <hashTree/>
-        <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP Cookie Manager">
+        <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP Cookie Manager" enabled="true">
           <collectionProp name="CookieManager.cookies"/>
           <boolProp name="CookieManager.clearEachIteration">false</boolProp>
           <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
@@ -122,7 +122,7 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="02a_Halaman_Pencarian">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="02a_Halaman_Pencarian" enabled="true">
           <stringProp name="TestPlan.comments">HTML hasil pencarian</stringProp>
           <stringProp name="HTTPSampler.domain">www.sociolla.com</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -264,13 +264,13 @@
           </JSONPathAssertion>
           <hashTree/>
         </hashTree>
-        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Langkah login (aktif jika -Jlogin=1)">
+        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Langkah login (aktif jika -Jlogin=1)" enabled="true">
           <stringProp name="IfController.condition">${__groovy(true)}</stringProp>
           <boolProp name="IfController.evaluateAll">false</boolProp>
           <boolProp name="IfController.useExpression">true</boolProp>
         </IfController>
         <hashTree>
-          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="Cookie sesi (dibaca dari cookie.txt, TIDAK disimpan di file ini)">
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="Cookie sesi (dibaca dari cookie.txt, TIDAK disimpan di file ini)" enabled="true">
             <collectionProp name="HeaderManager.headers">
               <elementProp name="" elementType="Header">
                 <stringProp name="Header.name">Cookie</stringProp>
@@ -279,7 +279,7 @@
             </collectionProp>
           </HeaderManager>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="04_Lihat_Keranjang">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="04_Lihat_Keranjang" enabled="true">
             <stringProp name="TestPlan.comments">HTML halaman keranjang</stringProp>
             <stringProp name="HTTPSampler.domain">www.sociolla.com</stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -315,7 +315,7 @@
             </ResponseAssertion>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="04b_API_Keranjang">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="04b_API_Keranjang" enabled="true">
             <stringProp name="TestPlan.comments">API isi keranjang (butuh cookie login)</stringProp>
             <stringProp name="HTTPSampler.domain">carts-api1.sociolla.com</stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -387,7 +387,7 @@
             <hashTree/>
           </hashTree>
         </hashTree>
-        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree (aktifkan saat uji coba)">
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree (aktifkan saat uji coba)" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
@@ -424,7 +424,7 @@
           <stringProp name="filename"></stringProp>
         </ResultCollector>
         <hashTree/>
-        <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report">
+        <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
@@ -463,15 +463,15 @@
         <hashTree/>
       </hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="02_TG_Stress_Testing_Staged_Users">
-        <stringProp name="ThreadGroup.num_threads">${__P(users,100)}</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">${__P(rampup,60)}</stringProp>
-        <stringProp name="ThreadGroup.duration">${__P(duration,180)}</stringProp>
+        <intProp name="ThreadGroup.num_threads">500</intProp>
+        <intProp name="ThreadGroup.ramp_time">150</intProp>
+        <longProp name="ThreadGroup.duration">500</longProp>
         <longProp name="ThreadGroup.delay">0</longProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
         <stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
-          <stringProp name="LoopController.loops">1</stringProp>
+          <intProp name="LoopController.loops">-1</intProp>
           <boolProp name="LoopController.continue_forever">false</boolProp>
         </elementProp>
       </ThreadGroup>
@@ -487,7 +487,7 @@
           <stringProp name="HTTPSampler.implementation"></stringProp>
         </ConfigTestElement>
         <hashTree/>
-        <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="Header browser">
+        <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="Header browser" enabled="true">
           <collectionProp name="HeaderManager.headers">
             <elementProp name="" elementType="Header">
               <stringProp name="Header.name">User-Agent</stringProp>
@@ -510,12 +510,12 @@
           <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
         </CookieManager>
         <hashTree/>
-        <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Think Time 5-10 detik">
+        <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Think Time 5-10 detik" enabled="true">
           <stringProp name="ConstantTimer.delay">5000</stringProp>
           <stringProp name="RandomTimer.range">5000</stringProp>
         </UniformRandomTimer>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="01_Beranda">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="01_Beranda" enabled="true">
           <stringProp name="TestPlan.comments">Halaman HTML beranda</stringProp>
           <stringProp name="HTTPSampler.domain">www.sociolla.com</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -551,7 +551,7 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="02a_Halaman_Pencarian">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="02a_Halaman_Pencarian" enabled="true">
           <stringProp name="TestPlan.comments">HTML hasil pencarian</stringProp>
           <stringProp name="HTTPSampler.domain">www.sociolla.com</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -587,7 +587,7 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="02b_API_Pencarian">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="02b_API_Pencarian" enabled="true">
           <stringProp name="TestPlan.comments">API pencarian (publik)</stringProp>
           <stringProp name="HTTPSampler.domain">soco-api.sociolla.com</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -622,7 +622,7 @@
           </JSONPathAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="03a_Halaman_Produk">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="03a_Halaman_Produk" enabled="true">
           <stringProp name="TestPlan.comments">HTML detail produk</stringProp>
           <stringProp name="HTTPSampler.domain">www.sociolla.com</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -658,7 +658,7 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="03b_API_Detail_Produk">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="03b_API_Detail_Produk" enabled="true">
           <stringProp name="TestPlan.comments">API detail produk (publik)</stringProp>
           <stringProp name="HTTPSampler.domain">catalog-api1.sociolla.com</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -693,13 +693,13 @@
           </JSONPathAssertion>
           <hashTree/>
         </hashTree>
-        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Langkah login (aktif jika -Jlogin=1)">
+        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Langkah login (aktif jika -Jlogin=1)" enabled="true">
           <stringProp name="IfController.condition">${__groovy(true)}</stringProp>
           <boolProp name="IfController.evaluateAll">false</boolProp>
           <boolProp name="IfController.useExpression">true</boolProp>
         </IfController>
         <hashTree>
-          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="Cookie sesi (dibaca dari cookie.txt, TIDAK disimpan di file ini)">
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="Cookie sesi (dibaca dari cookie.txt, TIDAK disimpan di file ini)" enabled="true">
             <collectionProp name="HeaderManager.headers">
               <elementProp name="" elementType="Header">
                 <stringProp name="Header.name">Cookie</stringProp>
@@ -708,7 +708,7 @@
             </collectionProp>
           </HeaderManager>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="04_Lihat_Keranjang">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="04_Lihat_Keranjang" enabled="true">
             <stringProp name="TestPlan.comments">HTML halaman keranjang</stringProp>
             <stringProp name="HTTPSampler.domain">www.sociolla.com</stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -744,7 +744,7 @@
             </ResponseAssertion>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="04b_API_Keranjang">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="04b_API_Keranjang" enabled="true">
             <stringProp name="TestPlan.comments">API isi keranjang (butuh cookie login)</stringProp>
             <stringProp name="HTTPSampler.domain">carts-api1.sociolla.com</stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -779,7 +779,7 @@
             </JSONPathAssertion>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="05_Halaman_Checkout">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="05_Halaman_Checkout" enabled="true">
             <stringProp name="TestPlan.comments">HTML ringkasan checkout. BERHENTI DI SINI. Tidak ada request pembayaran.</stringProp>
             <stringProp name="HTTPSampler.domain">www.sociolla.com</stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -816,7 +816,7 @@
             <hashTree/>
           </hashTree>
         </hashTree>
-        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree (aktifkan saat uji coba)">
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree (aktifkan saat uji coba)" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
@@ -853,7 +853,7 @@
           <stringProp name="filename"></stringProp>
         </ResultCollector>
         <hashTree/>
-        <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report">
+        <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
