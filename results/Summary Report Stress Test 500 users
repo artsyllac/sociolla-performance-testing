@@ -1,0 +1,964 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1794366005677,149,Get Payment Methods,200,OK,05_payment_load 4-1,text,true,,39422,133,2,8,https://www.sociolla.com/order/shipping,146,0,51
+1794366005778,83,Get Payment Methods,200,OK,05_payment_load 4-2,text,true,,39422,133,1,7,https://www.sociolla.com/order/shipping,50,0,17
+1794366005879,88,Get Payment Methods,200,OK,05_payment_load 4-3,text,true,,39422,133,1,10,https://www.sociolla.com/order/shipping,81,0,33
+1794366006278,93,Get Payment Methods,200,OK,05_payment_load 4-7,text,true,,39422,133,4,26,https://www.sociolla.com/order/shipping,90,0,22
+1794366006078,313,Get Payment Methods,200,OK,05_payment_load 4-5,text,true,,39422,133,4,28,https://www.sociolla.com/order/shipping,164,0,14
+1794366005979,434,Get Payment Methods,200,OK,05_payment_load 4-4,text,true,,39422,133,3,27,https://www.sociolla.com/order/shipping,431,0,325
+1794366006374,196,Get Payment Methods,200,OK,05_payment_load 4-8,text,true,,39422,133,3,32,https://www.sociolla.com/order/shipping,182,0,15
+1794366006479,225,Get Payment Methods,200,OK,05_payment_load 4-9,text,true,,39422,133,4,37,https://www.sociolla.com/order/shipping,223,0,30
+1794366006178,730,Get Payment Methods,200,OK,05_payment_load 4-6,text,true,,39422,133,5,44,https://www.sociolla.com/order/shipping,728,0,514
+1794366007178,77,Get Payment Methods,200,OK,05_payment_load 4-16,text,true,,39422,133,7,55,https://www.sociolla.com/order/shipping,74,0,18
+1794366006678,640,Get Payment Methods,200,OK,05_payment_load 4-11,text,true,,39422,133,7,58,https://www.sociolla.com/order/shipping,637,0,248
+1794366007277,54,Get Payment Methods,200,OK,05_payment_load 4-17,text,true,,39422,133,6,57,https://www.sociolla.com/order/shipping,48,0,17
+1794366007377,258,Get Payment Methods,200,OK,05_payment_load 4-18,text,true,,39422,133,8,68,https://www.sociolla.com/order/shipping,210,0,169
+1794366007664,67,HTTP Request GET login,200,OK,01_02_login_search_load 1-1,text,true,,39422,228,21,71,https://www.sociolla.com/login,59,0,17
+1794366006978,821,Get Payment Methods,200,OK,05_payment_load 4-14,text,true,,39422,133,9,74,https://www.sociolla.com/order/shipping,816,0,763
+1794366007676,217,Get Payment Methods,200,OK,05_payment_load 4-21,text,true,,39422,133,9,77,https://www.sociolla.com/order/shipping,211,0,153
+1794366006871,1114,Get Payment Methods,200,OK,05_payment_load 4-13,text,true,,39422,133,9,80,https://www.sociolla.com/order/shipping,599,0,462
+1794366007766,220,HTTP Request GET login,200,OK,01_02_login_search_load 1-2,text,true,,39422,228,24,80,https://www.sociolla.com/login,208,0,15
+1794366007876,112,HTTP Request GET login,200,OK,01_02_login_search_load 1-3,text,true,,39422,228,24,79,https://www.sociolla.com/login,96,0,52
+1794366007885,111,HTTP Request order,200,OK,03_cart_load 2-3,text,true,,39422,196,23,79,https://www.sociolla.com/order,107,0,66
+1794366007576,500,Get Payment Methods,200,OK,05_payment_load 4-20,text,true,,39422,133,8,81,https://www.sociolla.com/order/shipping,496,0,215
+1794366007877,207,Get Payment Methods,200,OK,05_payment_load 4-23,text,true,,39422,133,8,82,https://www.sociolla.com/order/shipping,202,0,144
+1794366007978,143,Get Payment Methods,200,OK,05_payment_load 4-24,text,true,,39422,133,7,82,https://www.sociolla.com/order/shipping,140,0,55
+1794366007970,203,HTTP Request GET login,200,OK,01_02_login_search_load 1-4,text,true,,39422,228,26,83,https://www.sociolla.com/login,155,0,29
+1794366007715,647,HTTP Request order,200,OK,03_cart_load 2-1,text,true,,39422,196,27,90,https://www.sociolla.com/order,613,0,505
+1794366008278,161,Get Payment Methods,200,OK,05_payment_load 4-27,text,true,,39422,133,9,93,https://www.sociolla.com/order/shipping,142,0,51
+1794366008174,325,HTTP Request GET login,200,OK,01_02_login_search_load 1-6,text,true,,39422,228,29,95,https://www.sociolla.com/login,316,0,275
+1794366008378,157,Get Payment Methods,200,OK,05_payment_load 4-28,text,true,,39422,133,9,96,https://www.sociolla.com/order/shipping,150,0,97
+1794366008473,151,HTTP Request GET login,200,OK,01_02_login_search_load 1-9,text,true,,39422,228,30,99,https://www.sociolla.com/login,128,0,49
+1794366008379,364,HTTP Request GET login,200,OK,01_02_login_search_load 1-8,text,true,,39422,228,31,103,https://www.sociolla.com/login,349,0,321
+1794366008676,67,HTTP Request GET login,200,OK,01_02_login_search_load 1-11,text,true,,39422,228,31,103,https://www.sociolla.com/login,62,0,18
+1794366008478,315,Get Payment Methods,200,OK,05_payment_load 4-29,text,true,,39422,133,11,106,https://www.sociolla.com/order/shipping,286,0,133
+1794366007777,1084,Get Payment Methods,200,OK,05_payment_load 4-22,text,true,,39422,133,10,107,https://www.sociolla.com/order/shipping,1080,0,962
+1794366008678,191,Get Payment Methods,200,OK,05_payment_load 4-31,text,true,,39422,133,9,106,https://www.sociolla.com/order/shipping,188,0,61
+1794366008578,303,Get Payment Methods,200,OK,05_payment_load 4-30,text,true,,39422,133,9,107,https://www.sociolla.com/order/shipping,295,0,234
+1794366008566,341,HTTP Request GET login,200,OK,01_02_login_search_load 1-10,text,true,,39422,228,33,106,https://www.sociolla.com/login,335,0,285
+1794366008777,163,Get Payment Methods,200,OK,05_payment_load 4-32,text,true,,39422,133,8,107,https://www.sociolla.com/order/shipping,132,0,49
+1794366008660,283,HTTP Request order,200,OK,03_cart_load 2-5,text,true,,39422,196,33,106,https://www.sociolla.com/order,264,0,152
+1794366008178,767,Get Payment Methods,200,OK,05_payment_load 4-26,text,true,,39422,133,7,106,https://www.sociolla.com/order/shipping,738,0,662
+1794366008870,105,Get Payment Methods,200,OK,05_payment_load 4-33,text,true,,39422,133,6,107,https://www.sociolla.com/order/shipping,103,0,37
+1794366008978,63,Get Payment Methods,200,OK,05_payment_load 4-34,text,true,,39422,133,6,108,https://www.sociolla.com/order/shipping,54,0,20
+1794366009045,59,HTTP Request order,200,OK,03_cart_load 2-10,text,true,,39422,196,34,110,https://www.sociolla.com/order,51,0,18
+1794366008960,185,HTTP Request GET login,200,OK,01_02_login_search_load 1-14,text,true,,39422,228,35,111,https://www.sociolla.com/login,177,0,31
+1794366009077,73,Get Payment Methods,200,OK,05_payment_load 4-35,text,true,,39422,133,6,111,https://www.sociolla.com/order/shipping,60,0,25
+1794366008270,893,HTTP Request GET login,200,OK,01_02_login_search_load 1-7,text,true,,39422,228,36,111,https://www.sociolla.com/login,888,0,841
+1794366008861,329,HTTP Request GET login,200,OK,01_02_login_search_load 1-13,text,true,,39422,228,36,113,https://www.sociolla.com/login,316,0,163
+1794366008065,1135,HTTP Request GET login,200,OK,01_02_login_search_load 1-5,text,true,,39422,228,36,113,https://www.sociolla.com/login,1108,0,911
+1794366009207,70,HTTP Request order,200,OK,03_cart_load 2-6,text,true,,39422,196,36,116,https://www.sociolla.com/order,66,0,14
+1794366009177,130,Get Payment Methods,200,OK,05_payment_load 4-36,text,true,,39422,133,7,117,https://www.sociolla.com/order/shipping,125,0,23
+1794366009278,107,Get Payment Methods,200,OK,05_payment_load 4-37,text,true,,39422,133,7,120,https://www.sociolla.com/order/shipping,95,0,29
+1794366009262,140,HTTP Request GET login,200,OK,01_02_login_search_load 1-17,text,true,,39422,228,38,119,https://www.sociolla.com/login,133,0,23
+1794366009266,156,HTTP Request order,200,OK,03_cart_load 2-2,text,true,,39422,196,37,119,https://www.sociolla.com/order,151,0,42
+1794366009332,135,HTTP Request order,200,OK,03_cart_load 2-4,text,true,,39422,196,38,121,https://www.sociolla.com/order,130,0,89
+1794366009361,143,HTTP Request GET login,200,OK,01_02_login_search_load 1-18,text,true,,39422,228,39,123,https://www.sociolla.com/login,134,0,44
+1794366009474,89,HTTP Request order,200,OK,03_cart_load 2-9,text,true,,39422,196,39,124,https://www.sociolla.com/order,68,0,17
+1794366009478,85,Get Payment Methods,200,OK,05_payment_load 4-39,text,true,,39422,133,7,124,https://www.sociolla.com/order/shipping,69,0,20
+1794366009578,54,Get Payment Methods,200,OK,05_payment_load 4-40,text,true,,39422,133,7,126,https://www.sociolla.com/order/shipping,48,0,18
+1794366009660,68,HTTP Request GET login,200,OK,01_02_login_search_load 1-21,text,true,,39422,228,41,129,https://www.sociolla.com/login,62,0,18
+1794366009562,234,HTTP Request GET login,200,OK,01_02_login_search_load 1-20,text,true,,39422,228,42,133,https://www.sociolla.com/login,231,0,45
+1794366009061,750,HTTP Request GET login,200,OK,01_02_login_search_load 1-15,text,true,,39422,228,42,133,https://www.sociolla.com/login,745,0,138
+1794366009733,83,HTTP Request GET search,200,OK,01_02_login_search_load 1-1,text,true,,39422,236,42,133,https://www.sociolla.com/search?page=2,67,0,0
+1794366009636,223,HTTP Request order,200,OK,03_cart_load 2-20,text,true,,39422,196,42,133,https://www.sociolla.com/order,217,0,178
+1794366009378,495,Get Payment Methods,200,OK,05_payment_load 4-38,text,true,,39422,133,8,135,https://www.sociolla.com/order/shipping,490,0,367
+1794366009762,177,HTTP Request GET login,200,OK,01_02_login_search_load 1-22,text,true,,39422,228,42,135,https://www.sociolla.com/login,177,0,34
+1794366009559,429,HTTP Request order,200,OK,03_cart_load 2-17,text,true,,39422,196,43,139,https://www.sociolla.com/order,415,0,311
+1794366009986,55,HTTP Request GET search,200,OK,01_02_login_search_load 1-2,text,true,,39422,236,43,139,https://www.sociolla.com/search?page=2,51,0,0
+1794366009988,78,HTTP Request GET search,200,OK,01_02_login_search_load 1-3,text,true,,39422,236,43,140,https://www.sociolla.com/search?page=2,68,0,0
+1794366009614,457,HTTP Request order,200,OK,03_cart_load 2-19,text,true,,39422,196,44,140,https://www.sociolla.com/order,444,0,387
+1794366009863,264,HTTP Request GET login,200,OK,01_02_login_search_load 1-23,text,true,,39422,228,42,141,https://www.sociolla.com/login,250,0,170
+1794366010062,75,HTTP Request GET login,200,OK,01_02_login_search_load 1-25,text,true,,39422,228,42,141,https://www.sociolla.com/login,65,0,22
+1794366009962,244,HTTP Request GET login,200,OK,01_02_login_search_load 1-24,text,true,,39422,228,43,145,https://www.sociolla.com/login,236,0,195
+1794366010138,74,HTTP Request order,200,OK,03_cart_load 2-24,text,true,,39422,196,45,145,https://www.sociolla.com/order,63,0,16
+1794366010173,55,HTTP Request GET search,200,OK,01_02_login_search_load 1-4,text,true,,39422,236,43,145,https://www.sociolla.com/search?page=2,42,0,0
+1794366009687,600,HTTP Request order,200,OK,03_cart_load 2-7,text,true,,39422,196,46,148,https://www.sociolla.com/order,596,0,541
+1794366010278,77,Get Payment Methods,200,OK,05_payment_load 4-47,text,true,,39422,133,12,149,https://www.sociolla.com/order/shipping,63,0,19
+1794366010077,279,Get Payment Methods,200,OK,05_payment_load 4-45,text,true,,39422,133,11,148,https://www.sociolla.com/order/shipping,272,0,208
+1794366009979,392,Get Payment Methods,200,OK,05_payment_load 4-44,text,true,,39422,133,10,148,https://www.sociolla.com/order/shipping,383,0,331
+1794366010263,153,HTTP Request GET login,200,OK,01_02_login_search_load 1-27,text,true,,39422,228,44,149,https://www.sociolla.com/login,142,0,93
+1794366010340,80,HTTP Request order,200,OK,03_cart_load 2-27,text,true,,39422,196,47,149,https://www.sociolla.com/order,72,0,30
+1794366010164,352,HTTP Request GET login,200,OK,01_02_login_search_load 1-26,text,true,,39422,228,45,153,https://www.sociolla.com/login,345,0,313
+1794366010377,268,Get Payment Methods,200,OK,05_payment_load 4-48,text,true,,39422,133,12,157,https://www.sociolla.com/order/shipping,263,0,69
+1794366010465,190,HTTP Request GET login,200,OK,01_02_login_search_load 1-29,text,true,,39422,228,46,157,https://www.sociolla.com/login,166,0,13
+1794366010625,37,HTTP Request GET search,200,OK,01_02_login_search_load 1-9,text,true,,39422,236,47,158,https://www.sociolla.com/search?page=2,30,0,0
+1794366010577,98,Get Payment Methods,200,OK,05_payment_load 4-50,text,true,,39422,133,11,158,https://www.sociolla.com/order/shipping,91,0,14
+1794366010632,140,HTTP Request order,200,OK,03_cart_load 2-11,text,true,,39422,196,51,161,https://www.sociolla.com/order,134,0,90
+1794366010743,52,HTTP Request GET search,200,OK,01_02_login_search_load 1-11,text,true,,39422,236,47,162,https://www.sociolla.com/search?page=2,49,0,0
+1794366010663,142,HTTP Request GET login,200,OK,01_02_login_search_load 1-31,text,true,,39422,228,46,161,https://www.sociolla.com/login,115,0,43
+1794366010743,64,HTTP Request GET search,200,OK,01_02_login_search_load 1-8,text,true,,39422,236,46,161,https://www.sociolla.com/search?page=2,42,0,0
+1794366010723,91,HTTP Request order,200,OK,03_cart_load 2-21,text,true,,39422,196,51,160,https://www.sociolla.com/order,72,0,22
+1794366010499,325,HTTP Request GET search,200,OK,01_02_login_search_load 1-6,text,true,,39422,236,45,160,https://www.sociolla.com/search?page=2,321,0,0
+1794366010778,92,Get Payment Methods,200,OK,05_payment_load 4-52,text,true,,39422,133,12,162,https://www.sociolla.com/order/shipping,84,0,46
+1794366010764,121,HTTP Request GET login,200,OK,01_02_login_search_load 1-32,text,true,,39422,228,45,162,https://www.sociolla.com/login,113,0,50
+1794366010362,590,HTTP Request GET login,200,OK,01_02_login_search_load 1-28,text,true,,39422,228,45,162,https://www.sociolla.com/login,584,0,530
+1794366010871,140,Get Payment Methods,200,OK,05_payment_load 4-53,text,true,,39422,133,13,166,https://www.sociolla.com/order/shipping,136,0,56
+1794366010864,203,HTTP Request GET login,200,OK,01_02_login_search_load 1-33,text,true,,39422,228,47,167,https://www.sociolla.com/login,200,0,115
+1794366009882,1193,Get Payment Methods,200,OK,05_payment_load 4-43,text,true,,39422,133,12,168,https://www.sociolla.com/order/shipping,1191,0,1068
+1794366011091,37,HTTP Request order,200,OK,03_cart_load 2-1,text,true,,39422,196,54,168,https://www.sociolla.com/order,30,0,0
+1794366010987,142,04_Halaman_Checkout,200,OK,04_checkout_laod 3-2,text,true,,39422,283,55,168,https://www.sociolla.com/order/shipping,129,0,92
+1794366010538,620,HTTP Request order,200,OK,03_cart_load 2-29,text,true,,39422,196,55,168,https://www.sociolla.com/order,519,0,389
+1794366010477,690,Get Payment Methods,200,OK,05_payment_load 4-49,text,true,,39422,133,12,169,https://www.sociolla.com/order/shipping,684,0,500
+1794366010678,499,Get Payment Methods,200,OK,05_payment_load 4-51,text,true,,39422,133,11,169,https://www.sociolla.com/order/shipping,491,0,261
+1794366010978,212,Get Payment Methods,200,OK,05_payment_load 4-54,text,true,,39422,133,11,169,https://www.sociolla.com/order/shipping,208,0,81
+1794366010962,239,HTTP Request GET login,200,OK,01_02_login_search_load 1-34,text,true,,39422,228,48,168,https://www.sociolla.com/login,233,0,168
+1794366011079,123,Get Payment Methods,200,OK,05_payment_load 4-55,text,true,,39422,133,10,168,https://www.sociolla.com/order/shipping,100,0,15
+1794366011146,81,HTTP Request GET search,200,OK,01_02_login_search_load 1-14,text,true,,39422,236,48,167,https://www.sociolla.com/search?page=2,56,0,0
+1794366011062,198,HTTP Request GET login,200,OK,01_02_login_search_load 1-35,text,true,,39422,228,47,167,https://www.sociolla.com/login,190,0,137
+1794366011191,72,HTTP Request GET search,200,OK,01_02_login_search_load 1-13,text,true,,39422,236,48,168,https://www.sociolla.com/search?page=2,67,0,0
+1794366011200,88,HTTP Request GET search,200,OK,01_02_login_search_load 1-5,text,true,,39422,236,47,169,https://www.sociolla.com/search?page=2,84,0,0
+1794366011179,117,Get Payment Methods,200,OK,05_payment_load 4-56,text,true,,39422,133,10,168,https://www.sociolla.com/order/shipping,114,0,36
+1794366011215,108,HTTP Request order,200,OK,03_cart_load 2-8,text,true,,39422,196,56,167,https://www.sociolla.com/order,98,0,52
+1794366011295,61,HTTP Request order,200,OK,03_cart_load 2-28,text,true,,39422,196,56,167,https://www.sociolla.com/order,52,0,24
+1794366011279,118,Get Payment Methods,200,OK,05_payment_load 4-57,text,true,,39422,133,10,171,https://www.sociolla.com/order/shipping,114,0,31
+1794366011162,300,HTTP Request GET login,200,OK,01_02_login_search_load 1-36,text,true,,39422,228,47,171,https://www.sociolla.com/login,295,0,222
+1794366011505,46,HTTP Request GET search,200,OK,01_02_login_search_load 1-18,text,true,,39422,236,48,174,https://www.sociolla.com/search?page=2,39,0,0
+1794366011406,151,HTTP Request order,200,OK,03_cart_load 2-18,text,true,,39422,196,58,173,https://www.sociolla.com/order,149,0,57
+1794366011463,141,HTTP Request GET login,200,OK,01_02_login_search_load 1-39,text,true,,39422,228,48,177,https://www.sociolla.com/login,137,0,49
+1794366011262,367,HTTP Request GET login,200,OK,01_02_login_search_load 1-37,text,true,,39422,228,48,177,https://www.sociolla.com/login,354,0,273
+1794366010568,1087,HTTP Request GET login,200,OK,01_02_login_search_load 1-30,text,true,,39422,228,48,177,https://www.sociolla.com/login,1081,0,385
+1794366011403,347,HTTP Request GET search,200,OK,01_02_login_search_load 1-17,text,true,,39422,236,49,181,https://www.sociolla.com/search?page=2,314,0,0
+1794366011566,209,HTTP Request GET login,200,OK,01_02_login_search_load 1-40,text,true,,39422,228,49,182,https://www.sociolla.com/login,206,0,21
+1794366011642,159,HTTP Request order,200,OK,03_cart_load 2-23,text,true,,39422,196,61,184,https://www.sociolla.com/order,152,0,31
+1794366011729,73,HTTP Request GET search,200,OK,01_02_login_search_load 1-21,text,true,,39422,236,49,184,https://www.sociolla.com/search?page=2,60,0,0
+1794366011362,475,HTTP Request GET login,200,OK,01_02_login_search_load 1-38,text,true,,39422,228,48,183,https://www.sociolla.com/login,470,0,343
+1794366011773,86,04_Halaman_Checkout,200,OK,04_checkout_laod 3-4,text,true,,39422,283,61,183,https://www.sociolla.com/order/shipping,69,0,30
+1794366011797,79,HTTP Request GET search,200,OK,01_02_login_search_load 1-20,text,true,,39422,236,49,184,https://www.sociolla.com/search?page=2,76,0,0
+1794366011812,92,HTTP Request GET search,200,OK,01_02_login_search_load 1-15,text,true,,39422,236,48,185,https://www.sociolla.com/search?page=2,85,0,0
+1794366011762,172,HTTP Request GET login,200,OK,01_02_login_search_load 1-42,text,true,,39422,228,47,184,https://www.sociolla.com/login,169,0,85
+1794366011479,497,Get Payment Methods,200,OK,05_payment_load 4-59,text,true,,39422,133,14,186,https://www.sociolla.com/order/shipping,484,0,380
+1794366011893,92,HTTP Request order,200,OK,03_cart_load 2-16,text,true,,39422,196,63,187,https://www.sociolla.com/order,87,0,34
+1794366011862,172,HTTP Request GET login,200,OK,01_02_login_search_load 1-43,text,true,,39422,228,48,187,https://www.sociolla.com/login,159,0,33
+1794366011940,107,HTTP Request GET search,200,OK,01_02_login_search_load 1-22,text,true,,39422,236,48,187,https://www.sociolla.com/search?page=2,102,0,0
+1794366011960,109,HTTP Request GET login,200,OK,01_02_login_search_load 1-44,text,true,,39422,228,48,188,https://www.sociolla.com/login,89,0,42
+1794366012148,45,HTTP Request order,200,OK,03_cart_load 2-17,text,true,,39422,196,65,194,https://www.sociolla.com/order,35,0,0
+1794366011991,216,HTTP Request order,200,OK,03_cart_load 2-15,text,true,,39422,196,65,194,https://www.sociolla.com/order,210,0,38
+1794366012066,142,HTTP Request GET login,200,OK,01_02_login_search_load 1-45,text,true,,39422,228,49,194,https://www.sociolla.com/login,112,0,31
+1794366012207,35,HTTP Request GET search,200,OK,01_02_login_search_load 1-24,text,true,,39422,236,49,194,https://www.sociolla.com/search?page=2,32,0,0
+1794366010417,1858,HTTP Request order,200,OK,03_cart_load 2-13,text,true,,39422,196,66,196,https://www.sociolla.com/order,1847,0,1780
+1794366012179,112,Get Payment Methods,200,OK,05_payment_load 4-66,text,true,,39422,133,17,197,https://www.sociolla.com/order/shipping,105,0,51
+1794366012137,172,HTTP Request GET search,200,OK,01_02_login_search_load 1-25,text,true,,39422,236,49,196,https://www.sociolla.com/search?page=2,167,0,0
+1794366012279,94,Get Payment Methods,200,OK,05_payment_load 4-67,text,true,,39422,133,16,197,https://www.sociolla.com/order/shipping,65,0,31
+1794366012317,74,HTTP Request order,200,OK,03_cart_load 2-19,text,true,,39422,196,67,198,https://www.sociolla.com/order,70,0,0
+1794366012302,89,04_Halaman_Checkout,200,OK,04_checkout_laod 3-12,text,true,,39422,283,66,198,https://www.sociolla.com/order/shipping,76,0,21
+1794366011679,723,Get Payment Methods,200,OK,05_payment_load 4-61,text,true,,39422,133,16,197,https://www.sociolla.com/order/shipping,720,0,650
+1794366011778,652,Get Payment Methods,200,OK,05_payment_load 4-62,text,true,,39422,133,15,196,https://www.sociolla.com/order/shipping,646,0,69
+1794366012350,109,04_Halaman_Checkout,200,OK,04_checkout_laod 3-10,text,true,,39422,283,65,195,https://www.sociolla.com/order/shipping,80,0,32
+1794366012378,152,Get Payment Methods,200,OK,05_payment_load 4-68,text,true,,39422,133,15,198,https://www.sociolla.com/order/shipping,144,0,95
+1794366012478,67,Get Payment Methods,200,OK,05_payment_load 4-69,text,true,,39422,133,14,197,https://www.sociolla.com/order/shipping,57,0,21
+1794366012362,199,HTTP Request GET login,200,OK,01_02_login_search_load 1-48,text,true,,39422,228,50,196,https://www.sociolla.com/login,186,0,149
+1794366012398,191,HTTP Request order,200,OK,03_cart_load 2-42,text,true,,39422,196,69,200,https://www.sociolla.com/order,184,0,141
+1794366012127,492,HTTP Request GET search,200,OK,01_02_login_search_load 1-23,text,true,,39422,236,51,200,https://www.sociolla.com/search?page=2,487,0,0
+1794366012517,168,HTTP Request GET search,200,OK,01_02_login_search_load 1-26,text,true,,39422,236,51,203,https://www.sociolla.com/search?page=2,164,0,0
+1794366012681,55,HTTP Request order,200,OK,03_cart_load 2-2,text,true,,39422,196,70,202,https://www.sociolla.com/order,50,0,0
+1794366011979,764,Get Payment Methods,200,OK,05_payment_load 4-64,text,true,,39422,133,15,202,https://www.sociolla.com/order/shipping,760,0,403
+1794366012515,244,HTTP Request order,200,OK,03_cart_load 2-27,text,true,,39422,196,70,201,https://www.sociolla.com/order,241,0,0
+1794366012655,108,HTTP Request GET search,200,OK,01_02_login_search_load 1-29,text,true,,39422,236,50,201,https://www.sociolla.com/search?page=2,94,0,0
+1794366012476,289,HTTP Request order,200,OK,03_cart_load 2-37,text,true,,39422,196,70,201,https://www.sociolla.com/order,246,0,20
+1794366012616,158,HTTP Request order,200,OK,03_cart_load 2-5,text,true,,39422,196,70,202,https://www.sociolla.com/order,153,0,0
+1794366012349,435,04_Halaman_Checkout,200,OK,04_checkout_laod 3-11,text,true,,39422,283,68,204,https://www.sociolla.com/order/shipping,430,0,278
+1794366012579,211,Get Payment Methods,200,OK,05_payment_load 4-70,text,true,,39422,133,15,203,https://www.sociolla.com/order/shipping,208,0,23
+1794366012562,242,HTTP Request GET login,200,OK,01_02_login_search_load 1-50,text,true,,39422,228,50,202,https://www.sociolla.com/login,234,0,17
+1794366012295,511,HTTP Request order,200,OK,03_cart_load 2-35,text,true,,39422,196,71,202,https://www.sociolla.com/order,509,0,283
+1794366012599,210,HTTP Request order,200,OK,03_cart_load 2-3,text,true,,39422,196,71,202,https://www.sociolla.com/order,187,0,0
+1794366012614,233,HTTP Request order,200,OK,03_cart_load 2-22,text,true,,39422,196,71,202,https://www.sociolla.com/order,227,0,72
+1794366012805,52,HTTP Request GET search,200,OK,01_02_login_search_load 1-31,text,true,,39422,236,50,202,https://www.sociolla.com/search?page=2,49,0,0
+1794366012779,87,Get Payment Methods,200,OK,05_payment_load 4-72,text,true,,39422,133,14,201,https://www.sociolla.com/order/shipping,69,0,30
+1794366012764,106,HTTP Request GET login,200,OK,01_02_login_search_load 1-52,text,true,,39422,228,49,200,https://www.sociolla.com/login,102,0,44
+1794366012263,612,HTTP Request GET login,200,OK,01_02_login_search_load 1-47,text,true,,39422,228,50,202,https://www.sociolla.com/login,610,0,505
+1794366012823,76,HTTP Request order,200,OK,03_cart_load 2-7,text,true,,39422,196,72,204,https://www.sociolla.com/order,73,0,0
+1794366012660,243,HTTP Request GET login,200,OK,01_02_login_search_load 1-51,text,true,,39422,228,50,204,https://www.sociolla.com/login,240,0,153
+1794366012416,493,HTTP Request GET search,200,OK,01_02_login_search_load 1-27,text,true,,39422,236,50,204,https://www.sociolla.com/search?page=2,490,0,0
+1794366012463,459,HTTP Request GET login,200,OK,01_02_login_search_load 1-49,text,true,,39422,228,49,203,https://www.sociolla.com/login,451,0,394
+1794366012886,57,HTTP Request GET search,200,OK,01_02_login_search_load 1-32,text,true,,39422,236,49,203,https://www.sociolla.com/search?page=2,54,0,0
+1794366012880,74,Get Payment Methods,200,OK,05_payment_load 4-73,text,true,,39422,133,14,202,https://www.sociolla.com/order/shipping,67,0,30
+1794366012911,75,HTTP Request order,200,OK,03_cart_load 2-4,text,true,,39422,196,73,205,https://www.sociolla.com/order,54,0,0
+1794366012877,123,HTTP Request order,200,OK,03_cart_load 2-25,text,true,,39422,196,73,205,https://www.sociolla.com/order,119,0,33
+1794366012613,444,HTTP Request order,200,OK,03_cart_load 2-41,text,true,,39422,196,73,205,https://www.sociolla.com/order,427,0,359
+1794366012965,95,HTTP Request GET login,200,OK,01_02_login_search_load 1-54,text,true,,39422,228,49,205,https://www.sociolla.com/login,88,0,37
+1794366012621,459,HTTP Request order,200,OK,03_cart_load 2-26,text,true,,39422,196,73,208,https://www.sociolla.com/order,456,0,381
+1794366012646,514,04_Halaman_Checkout,200,OK,04_checkout_laod 3-7,text,true,,39422,283,70,209,https://www.sociolla.com/order/shipping,508,0,425
+1794366013063,102,HTTP Request GET login,200,OK,01_02_login_search_load 1-55,text,true,,39422,228,51,209,https://www.sociolla.com/login,100,0,19
+1794366012837,335,HTTP Request order,200,OK,03_cart_load 2-20,text,true,,39422,196,74,210,https://www.sociolla.com/order,332,0,0
+1794366013140,41,HTTP Request order,200,OK,03_cart_load 2-24,text,true,,39422,196,74,211,https://www.sociolla.com/order,38,0,0
+1794366013079,117,Get Payment Methods,200,OK,05_payment_load 4-75,text,true,,39422,133,16,212,https://www.sociolla.com/order/shipping,105,0,29
+1794366013128,80,04_Halaman_Checkout,200,OK,04_checkout_laod 3-25,text,true,,39422,283,70,211,https://www.sociolla.com/order/shipping,70,0,31
+1794366013131,87,04_Halaman_Checkout,200,OK,04_checkout_laod 3-1,text,true,,39422,283,69,210,https://www.sociolla.com/order/shipping,74,0,28
+1794366013087,137,HTTP Request order,200,OK,03_cart_load 2-47,text,true,,39422,196,75,209,https://www.sociolla.com/order,128,0,81
+1794366013069,187,HTTP Request GET search,200,OK,01_02_login_search_load 1-33,text,true,,39422,236,51,209,https://www.sociolla.com/search?page=2,184,0,0
+1794366012980,290,Get Payment Methods,200,OK,05_payment_load 4-74,text,true,,39422,133,15,209,https://www.sociolla.com/order/shipping,279,0,234
+1794366012848,435,HTTP Request order,200,OK,03_cart_load 2-30,text,true,,39422,196,76,211,https://www.sociolla.com/order,428,0,388
+1794366013260,41,HTTP Request GET search,200,OK,01_02_login_search_load 1-35,text,true,,39422,236,51,211,https://www.sociolla.com/search?page=2,36,0,0
+1794366013161,185,HTTP Request GET login,200,OK,01_02_login_search_load 1-56,text,true,,39422,228,50,210,https://www.sociolla.com/login,182,0,36
+1794366013293,81,HTTP Request order,200,OK,03_cart_load 2-40,text,true,,39422,196,76,212,https://www.sociolla.com/order,72,0,46
+1794366013279,131,Get Payment Methods,200,OK,05_payment_load 4-77,text,true,,39422,133,16,214,https://www.sociolla.com/order/shipping,125,0,91
+1794366013379,77,Get Payment Methods,200,OK,05_payment_load 4-78,text,true,,39422,133,15,213,https://www.sociolla.com/order/shipping,68,0,31
+1794366013431,85,04_Halaman_Checkout,200,OK,04_checkout_laod 3-5,text,true,,39422,283,71,216,https://www.sociolla.com/order/shipping,74,0,19
+1794366013462,90,HTTP Request GET search,200,OK,01_02_login_search_load 1-36,text,true,,39422,236,52,215,https://www.sociolla.com/search?page=2,80,0,0
+1794366013507,53,HTTP Request order,200,OK,03_cart_load 2-1,text,true,,39422,196,78,214,https://www.sociolla.com/order,49,0,0
+1794366013361,264,HTTP Request GET login,200,OK,01_02_login_search_load 1-58,text,true,,39422,228,52,218,https://www.sociolla.com/login,264,0,61
+1794366013552,91,04_Halaman_Checkout,200,OK,04_checkout_laod 3-3,text,true,,39422,283,71,218,https://www.sociolla.com/order/shipping,85,0,29
+1794366013631,36,HTTP Request GET search,200,OK,01_02_login_search_load 1-37,text,true,,39422,236,52,217,https://www.sociolla.com/search?page=2,33,0,0
+1794366013162,510,HTTP Request order,200,OK,03_cart_load 2-55,text,true,,39422,196,79,217,https://www.sociolla.com/order,496,0,438
+1794366013604,99,HTTP Request GET search,200,OK,01_02_login_search_load 1-39,text,true,,39422,236,52,220,https://www.sociolla.com/search?page=2,88,0,0
+1794366013679,76,Get Payment Methods,200,OK,05_payment_load 4-81,text,true,,39422,133,17,219,https://www.sociolla.com/order/shipping,70,0,41
+1794366013656,109,HTTP Request GET search,200,OK,01_02_login_search_load 1-30,text,true,,39422,236,51,218,https://www.sociolla.com/search?page=2,105,0,0
+1794366013683,114,HTTP Request order,200,OK,03_cart_load 2-58,text,true,,39422,196,81,221,https://www.sociolla.com/order,110,0,44
+1794366012678,1137,Get Payment Methods,200,OK,05_payment_load 4-71,text,true,,39422,133,17,221,https://www.sociolla.com/order/shipping,1122,0,814
+1794366013777,44,HTTP Request GET search,200,OK,01_02_login_search_load 1-40,text,true,,39422,236,51,220,https://www.sociolla.com/search?page=2,38,0,0
+1794366013709,133,HTTP Request order,200,OK,03_cart_load 2-8,text,true,,39422,196,81,219,https://www.sociolla.com/order,130,0,0
+1794366013779,93,04_Halaman_Checkout,200,OK,04_checkout_laod 3-13,text,true,,39422,283,72,220,https://www.sociolla.com/order/shipping,88,0,47
+1794366013478,434,Get Payment Methods,200,OK,05_payment_load 4-79,text,true,,39422,133,17,222,https://www.sociolla.com/order/shipping,421,0,367
+1794366013779,139,Get Payment Methods,200,OK,05_payment_load 4-82,text,true,,39422,133,16,221,https://www.sociolla.com/order/shipping,133,0,64
+1794366013764,161,HTTP Request order,200,OK,03_cart_load 2-11,text,true,,39422,196,82,220,https://www.sociolla.com/order,157,0,0
+1794366013865,80,HTTP Request GET login,200,OK,01_02_login_search_load 1-63,text,true,,39422,228,51,220,https://www.sociolla.com/login,72,0,29
+1794366013178,768,Get Payment Methods,200,OK,05_payment_load 4-76,text,true,,39422,133,15,220,https://www.sociolla.com/order/shipping,751,0,710
+1794366013930,40,HTTP Request order,200,OK,03_cart_load 2-9,text,true,,39422,196,82,220,https://www.sociolla.com/order,35,0,0
+1794366013935,45,HTTP Request GET search,200,OK,01_02_login_search_load 1-42,text,true,,39422,236,52,222,https://www.sociolla.com/search?page=2,40,0,0
+1794366013661,344,HTTP Request GET login,200,OK,01_02_login_search_load 1-61,text,true,,39422,228,51,222,https://www.sociolla.com/login,340,0,232
+1794366013963,120,HTTP Request GET login,200,OK,01_02_login_search_load 1-64,text,true,,39422,228,52,226,https://www.sociolla.com/login,115,0,33
+1794366013763,328,HTTP Request GET login,200,OK,01_02_login_search_load 1-62,text,true,,39422,228,52,226,https://www.sociolla.com/login,299,0,233
+1794366013880,227,Get Payment Methods,200,OK,05_payment_load 4-83,text,true,,39422,133,16,226,https://www.sociolla.com/order/shipping,221,0,133
+1794366013683,438,HTTP Request order,200,OK,03_cart_load 2-33,text,true,,39422,196,84,225,https://www.sociolla.com/order,433,0,388
+1794366014071,74,HTTP Request GET search,200,OK,01_02_login_search_load 1-44,text,true,,39422,236,52,225,https://www.sociolla.com/search?page=2,69,0,0
+1794366013948,205,HTTP Request order,200,OK,03_cart_load 2-6,text,true,,39422,196,84,224,https://www.sociolla.com/order,199,0,0
+1794366014035,157,HTTP Request GET search,200,OK,01_02_login_search_load 1-43,text,true,,39422,236,52,228,https://www.sociolla.com/search?page=2,148,0,0
+1794366014000,195,04_Halaman_Checkout,200,OK,04_checkout_laod 3-21,text,true,,39422,283,75,227,https://www.sociolla.com/order/shipping,185,0,109
+1794366014080,155,Get Payment Methods,200,OK,05_payment_load 4-85,text,true,,39422,133,16,226,https://www.sociolla.com/order/shipping,152,0,26
+1794366013979,266,Get Payment Methods,200,OK,05_payment_load 4-84,text,true,,39422,133,15,225,https://www.sociolla.com/order/shipping,218,0,83
+1794366014049,239,HTTP Request order,200,OK,03_cart_load 2-53,text,true,,39422,196,86,228,https://www.sociolla.com/order,235,0,33
+1794366013838,465,HTTP Request GET search,200,OK,01_02_login_search_load 1-38,text,true,,39422,236,52,228,https://www.sociolla.com/search?page=2,459,0,0
+1794366013706,597,HTTP Request order,200,OK,03_cart_load 2-31,text,true,,39422,196,86,228,https://www.sociolla.com/order,585,0,539
+1794366014067,255,HTTP Request GET login,200,OK,01_02_login_search_load 1-65,text,true,,39422,228,51,227,https://www.sociolla.com/login,252,0,25
+1794366013702,679,HTTP Request order,200,OK,03_cart_load 2-45,text,true,,39422,196,86,230,https://www.sociolla.com/order,664,0,627
+1794366014029,352,HTTP Request order,200,OK,03_cart_load 2-60,text,true,,39422,196,86,230,https://www.sociolla.com/order,345,0,53
+1794366014209,184,HTTP Request GET search,200,OK,01_02_login_search_load 1-45,text,true,,39422,236,52,231,https://www.sociolla.com/search?page=2,180,0,0
+1794366013578,832,Get Payment Methods,200,OK,05_payment_load 4-80,text,true,,39422,133,16,230,https://www.sociolla.com/order/shipping,827,0,652
+1794366013839,572,HTTP Request order,200,OK,03_cart_load 2-57,text,true,,39422,196,87,229,https://www.sociolla.com/order,559,0,495
+1794366014363,84,HTTP Request GET login,200,OK,01_02_login_search_load 1-68,text,true,,39422,228,51,229,https://www.sociolla.com/login,81,0,35
+1794366014411,91,HTTP Request order,200,OK,03_cart_load 2-39,text,true,,39422,196,88,233,https://www.sociolla.com/order,69,0,37
+1794366014379,124,Get Payment Methods,200,OK,05_payment_load 4-88,text,true,,39422,133,16,233,https://www.sociolla.com/order/shipping,118,0,42
+1794366014505,121,HTTP Request order,200,OK,03_cart_load 2-51,text,true,,39422,196,89,236,https://www.sociolla.com/order,103,0,32
+1794366014267,372,HTTP Request GET login,200,OK,01_02_login_search_load 1-67,text,true,,39422,228,53,236,https://www.sociolla.com/login,365,0,320
+1794366014623,56,04_Halaman_Checkout,200,OK,04_checkout_laod 3-14,text,true,,39422,283,79,238,https://www.sociolla.com/order/shipping,48,0,19
+1794366014530,190,HTTP Request order,200,OK,03_cart_load 2-63,text,true,,39422,196,90,239,https://www.sociolla.com/order,184,0,149
+1794366013421,1304,HTTP Request order,200,OK,03_cart_load 2-52,text,true,,39422,196,90,239,https://www.sociolla.com/order,1291,0,1241
+1794366014473,266,Get Payment Methods,200,OK,05_payment_load 4-89,text,true,,39422,133,17,239,https://www.sociolla.com/order/shipping,261,0,209
+1794366014686,94,HTTP Request order,200,OK,03_cart_load 2-56,text,true,,39422,196,90,241,https://www.sociolla.com/order,87,0,18
+1794366014663,128,HTTP Request GET login,200,OK,01_02_login_search_load 1-71,text,true,,39422,228,55,242,https://www.sociolla.com/login,122,0,27
+1794366014563,245,HTTP Request GET login,200,OK,01_02_login_search_load 1-70,text,true,,39422,228,55,242,https://www.sociolla.com/login,238,0,65
+1794366014467,341,04_Halaman_Checkout,200,OK,04_checkout_laod 3-29,text,true,,39422,283,79,242,https://www.sociolla.com/order/shipping,328,0,107
+1794366014554,279,HTTP Request order,200,OK,03_cart_load 2-16,text,true,,39422,196,91,241,https://www.sociolla.com/order,263,0,0
+1794366014805,41,HTTP Request GET search,200,OK,01_02_login_search_load 1-50,text,true,,39422,236,55,241,https://www.sociolla.com/search?page=2,36,0,0
+1794366014762,115,04_Halaman_Checkout,200,OK,04_checkout_laod 3-36,text,true,,39422,283,79,242,https://www.sociolla.com/order/shipping,95,0,49
+1794366014770,113,04_Halaman_Checkout,200,OK,04_checkout_laod 3-17,text,true,,39422,283,78,243,https://www.sociolla.com/order/shipping,107,0,63
+1794366014872,45,HTTP Request GET search,200,OK,01_02_login_search_load 1-52,text,true,,39422,236,55,242,https://www.sociolla.com/search?page=2,41,0,0
+1794366014877,54,HTTP Request GET search,200,OK,01_02_login_search_load 1-47,text,true,,39422,236,54,241,https://www.sociolla.com/search?page=2,48,0,0
+1794366014789,165,HTTP Request order,200,OK,03_cart_load 2-18,text,true,,39422,196,92,240,https://www.sociolla.com/order,162,0,0
+1794366014829,135,HTTP Request order,200,OK,03_cart_load 2-2,text,true,,39422,196,92,240,https://www.sociolla.com/order,129,0,0
+1794366014904,66,HTTP Request GET search,200,OK,01_02_login_search_load 1-51,text,true,,39422,236,54,241,https://www.sociolla.com/search?page=2,60,0,0
+1794366014807,173,04_Halaman_Checkout,200,OK,04_checkout_laod 3-6,text,true,,39422,283,78,242,https://www.sociolla.com/order/shipping,168,0,100
+1794366014880,146,Get Payment Methods,200,OK,05_payment_load 4-93,text,true,,39422,133,19,242,https://www.sociolla.com/order/shipping,130,0,81
+1794366014799,262,HTTP Request order,200,OK,03_cart_load 2-70,text,true,,39422,196,93,241,https://www.sociolla.com/order,260,0,178
+1794366014311,778,HTTP Request order,200,OK,03_cart_load 2-43,text,true,,39422,196,94,245,https://www.sociolla.com/order,775,0,669
+1794366014924,169,HTTP Request GET search,200,OK,01_02_login_search_load 1-49,text,true,,39422,236,54,245,https://www.sociolla.com/search?page=2,157,0,0
+1794366015060,46,HTTP Request GET search,200,OK,01_02_login_search_load 1-54,text,true,,39422,236,53,244,https://www.sociolla.com/search?page=2,42,0,0
+1794366014961,162,HTTP Request GET login,200,OK,01_02_login_search_load 1-74,text,true,,39422,228,52,243,https://www.sociolla.com/login,158,0,52
+1794366014681,443,Get Payment Methods,200,OK,05_payment_load 4-91,text,true,,39422,133,19,243,https://www.sociolla.com/order/shipping,433,0,361
+1794366015070,78,HTTP Request GET login,200,OK,01_02_login_search_load 1-75,text,true,,39422,228,52,242,https://www.sociolla.com/login,74,0,27
+1794366014874,286,HTTP Request GET login,200,OK,01_02_login_search_load 1-73,text,true,,39422,228,52,242,https://www.sociolla.com/login,278,0,220
+1794366014771,391,Get Payment Methods,200,OK,05_payment_load 4-92,text,true,,39422,133,18,242,https://www.sociolla.com/order/shipping,385,0,317
+1794366015090,113,HTTP Request order,200,OK,03_cart_load 2-42,text,true,,39422,196,95,245,https://www.sociolla.com/order,108,0,0
+1794366015080,132,Get Payment Methods,200,OK,05_payment_load 4-95,text,true,,39422,133,18,245,https://www.sociolla.com/order/shipping,127,0,41
+1794366014120,1098,HTTP Request order,200,OK,03_cart_load 2-36,text,true,,39422,196,95,244,https://www.sociolla.com/order,1053,0,1011
+1794366014764,458,HTTP Request GET login,200,OK,01_02_login_search_load 1-72,text,true,,39422,228,53,244,https://www.sociolla.com/login,456,0,399
+1794366015164,78,HTTP Request GET login,200,OK,01_02_login_search_load 1-76,text,true,,39422,228,53,244,https://www.sociolla.com/login,64,0,22
+1794366015180,89,Get Payment Methods,200,OK,05_payment_load 4-96,text,true,,39422,133,17,245,https://www.sociolla.com/order/shipping,84,0,25
+1794366015259,53,HTTP Request order,200,OK,03_cart_load 2-17,text,true,,39422,196,96,247,https://www.sociolla.com/order,49,0,0
+1794366014702,624,04_Halaman_Checkout,200,OK,04_checkout_laod 3-41,text,true,,39422,283,80,247,https://www.sociolla.com/order/shipping,621,0,564
+1794366015212,126,HTTP Request order,200,OK,03_cart_load 2-65,text,true,,39422,196,96,246,https://www.sociolla.com/order,119,0,68
+1794366015347,66,HTTP Request GET search,200,OK,01_02_login_search_load 1-56,text,true,,39422,236,55,250,https://www.sociolla.com/search?page=2,33,0,0
+1794366015341,76,04_Halaman_Checkout,200,OK,04_checkout_laod 3-20,text,true,,39422,283,80,249,https://www.sociolla.com/order/shipping,67,0,20
+1794366015380,69,Get Payment Methods,200,OK,05_payment_load 4-98,text,true,,39422,133,18,248,https://www.sociolla.com/order/shipping,53,0,18
+1794366015429,80,HTTP Request order,200,OK,03_cart_load 2-13,text,true,,39422,196,98,251,https://www.sociolla.com/order,75,0,0
+1794366015431,85,04_Halaman_Checkout,200,OK,04_checkout_laod 3-22,text,true,,39422,283,80,251,https://www.sociolla.com/order/shipping,82,0,40
+1794366015464,66,HTTP Request GET login,200,OK,01_02_login_search_load 1-79,text,true,,39422,228,55,250,https://www.sociolla.com/login,58,0,18
+1794366015461,109,04_Halaman_Checkout,200,OK,04_checkout_laod 3-18,text,true,,39422,283,79,251,https://www.sociolla.com/order/shipping,104,0,25
+1794366015293,292,HTTP Request order,200,OK,03_cart_load 2-48,text,true,,39422,196,99,253,https://www.sociolla.com/order,285,0,254
+1794366014580,1022,Get Payment Methods,200,OK,05_payment_load 4-90,text,true,,39422,133,19,253,https://www.sociolla.com/order/shipping,1015,0,933
+1794366015509,118,HTTP Request order,200,OK,03_cart_load 2-69,text,true,,39422,196,99,252,https://www.sociolla.com/order,113,0,28
+1794366015280,352,Get Payment Methods,200,OK,05_payment_load 4-97,text,true,,39422,133,18,252,https://www.sociolla.com/order/shipping,332,0,304
+1794366015592,65,HTTP Request order,200,OK,03_cart_load 2-29,text,true,,39422,196,99,251,https://www.sociolla.com/order,60,0,0
+1794366015580,87,Get Payment Methods,200,OK,05_payment_load 4-100,text,true,,39422,133,17,251,https://www.sociolla.com/order/shipping,81,0,17
+1794366015627,48,HTTP Request GET search,200,OK,01_02_login_search_load 1-58,text,true,,39422,236,56,251,https://www.sociolla.com/search?page=2,43,0,0
+1794366015264,424,HTTP Request GET login,200,OK,01_02_login_search_load 1-77,text,true,,39422,228,55,250,https://www.sociolla.com/login,417,0,367
+1794366015480,237,Get Payment Methods,200,OK,05_payment_load 4-99,text,true,,39422,133,16,250,https://www.sociolla.com/order/shipping,234,0,60
+1794366015569,226,HTTP Request GET login,200,OK,01_02_login_search_load 1-80,text,true,,39422,228,55,249,https://www.sociolla.com/login,215,0,185
+1794366015720,86,HTTP Request order,200,OK,03_cart_load 2-72,text,true,,39422,196,100,249,https://www.sociolla.com/order,72,0,37
+1794366015745,67,04_Halaman_Checkout,200,OK,04_checkout_laod 3-30,text,true,,39422,283,79,249,https://www.sociolla.com/order/shipping,58,0,19
+1794366014971,844,Get Payment Methods,200,OK,05_payment_load 4-94,text,true,,39422,133,15,248,https://www.sociolla.com/order/shipping,839,0,783
+1794366015746,114,HTTP Request order,200,OK,03_cart_load 2-22,text,true,,39422,196,100,247,https://www.sociolla.com/order,111,0,0
+1794366015509,367,04_Halaman_Checkout,200,OK,04_checkout_laod 3-39,text,true,,39422,283,78,247,https://www.sociolla.com/order/shipping,362,0,298
+1794366015825,94,HTTP Request order,200,OK,03_cart_load 2-54,text,true,,39422,196,100,246,https://www.sociolla.com/order,87,0,28
+1794366015724,237,04_Halaman_Checkout,200,OK,04_checkout_laod 3-33,text,true,,39422,283,77,246,https://www.sociolla.com/order/shipping,216,0,151
+1794366015368,594,HTTP Request GET login,200,OK,01_02_login_search_load 1-78,text,true,,39422,228,55,245,https://www.sociolla.com/login,580,0,529
+1794366015947,32,HTTP Request GET search,200,OK,01_02_login_search_load 1-63,text,true,,39422,236,55,245,https://www.sociolla.com/search?page=2,26,0,0
+1794366015941,49,HTTP Request order,200,OK,03_cart_load 2-15,text,true,,39422,196,100,244,https://www.sociolla.com/order,43,0,0
+1794366015964,35,HTTP Request order,200,OK,03_cart_load 2-37,text,true,,39422,196,100,244,https://www.sociolla.com/order,29,0,0
+1794366015961,62,04_Halaman_Checkout,200,OK,04_checkout_laod 3-8,text,true,,39422,283,76,244,https://www.sociolla.com/order/shipping,54,0,22
+1794366016005,40,HTTP Request GET search,200,OK,01_02_login_search_load 1-61,text,true,,39422,236,54,243,https://www.sociolla.com/search?page=2,35,0,0
+1794366016019,68,HTTP Request order,200,OK,03_cart_load 2-68,text,true,,39422,196,100,242,https://www.sociolla.com/order,61,0,16
+1794366015771,333,HTTP Request GET login,200,OK,01_02_login_search_load 1-82,text,true,,39422,228,53,242,https://www.sociolla.com/login,330,0,95
+1794366015965,181,HTTP Request GET login,200,OK,01_02_login_search_load 1-84,text,true,,39422,228,53,242,https://www.sociolla.com/login,170,0,141
+1794366016084,69,HTTP Request GET search,200,OK,01_02_login_search_load 1-64,text,true,,39422,236,53,242,https://www.sociolla.com/search?page=2,65,0,0
+1794366016125,92,04_Halaman_Checkout,200,OK,04_checkout_laod 3-53,text,true,,39422,283,75,241,https://www.sociolla.com/order/shipping,85,0,30
+1794366016121,155,HTTP Request order,200,OK,03_cart_load 2-55,text,true,,39422,196,100,240,https://www.sociolla.com/order,136,0,0
+1794366016205,72,04_Halaman_Checkout,200,OK,04_checkout_laod 3-55,text,true,,39422,283,74,240,https://www.sociolla.com/order/shipping,52,0,20
+1794366015865,421,HTTP Request GET login,200,OK,01_02_login_search_load 1-83,text,true,,39422,228,52,239,https://www.sociolla.com/login,418,0,324
+1794366016186,121,HTTP Request order,200,OK,03_cart_load 2-5,text,true,,39422,196,100,239,https://www.sociolla.com/order,117,0,0
+1794366016316,44,HTTP Request order,200,OK,03_cart_load 2-23,text,true,,39422,196,100,239,https://www.sociolla.com/order,33,0,0
+1794366016179,195,HTTP Request order,200,OK,03_cart_load 2-76,text,true,,39422,196,100,239,https://www.sociolla.com/order,191,0,47
+1794366016225,149,HTTP Request order,200,OK,03_cart_load 2-82,text,true,,39422,196,100,239,https://www.sociolla.com/order,126,0,83
+1794366016270,106,HTTP Request GET login,200,OK,01_02_login_search_load 1-87,text,true,,39422,228,52,239,https://www.sociolla.com/login,71,0,24
+1794366016324,59,HTTP Request GET search,200,OK,01_02_login_search_load 1-65,text,true,,39422,236,52,239,https://www.sociolla.com/search?page=2,56,0,0
+1794366016365,102,HTTP Request GET login,200,OK,01_02_login_search_load 1-88,text,true,,39422,228,51,238,https://www.sociolla.com/login,95,0,27
+1794366016448,65,HTTP Request GET search,200,OK,01_02_login_search_load 1-68,text,true,,39422,236,51,238,https://www.sociolla.com/search?page=2,59,0,0
+1794366016504,43,HTTP Request order,200,OK,03_cart_load 2-27,text,true,,39422,196,100,237,https://www.sociolla.com/order,40,0,0
+1794366016539,42,HTTP Request order,200,OK,03_cart_load 2-24,text,true,,39422,196,100,237,https://www.sociolla.com/order,38,0,0
+1794366016544,57,HTTP Request order,200,OK,03_cart_load 2-35,text,true,,39422,196,100,237,https://www.sociolla.com/order,51,0,0
+1794366016500,108,04_Halaman_Checkout,200,OK,04_checkout_laod 3-32,text,true,,39422,283,73,237,https://www.sociolla.com/order/shipping,104,0,32
+1794366016577,48,HTTP Request order,200,OK,03_cart_load 2-7,text,true,,39422,196,100,236,https://www.sociolla.com/order,48,0,0
+1794366016398,228,HTTP Request order,200,OK,03_cart_load 2-85,text,true,,39422,196,100,236,https://www.sociolla.com/order,215,0,163
+1794366016564,81,HTTP Request order,200,OK,03_cart_load 2-84,text,true,,39422,196,100,236,https://www.sociolla.com/order,71,0,25
+1794366016639,51,HTTP Request GET search,200,OK,01_02_login_search_load 1-67,text,true,,39422,236,50,236,https://www.sociolla.com/search?page=2,48,0,0
+1794366016061,649,HTTP Request GET login,200,OK,01_02_login_search_load 1-85,text,true,,39422,228,49,235,https://www.sociolla.com/login,646,0,189
+1794366016566,167,HTTP Request GET login,200,OK,01_02_login_search_load 1-90,text,true,,39422,228,49,235,https://www.sociolla.com/login,161,0,115
+1794366016692,60,HTTP Request order,200,OK,03_cart_load 2-3,text,true,,39422,196,100,235,https://www.sociolla.com/order,43,0,0
+1794366016666,98,HTTP Request GET login,200,OK,01_02_login_search_load 1-91,text,true,,39422,228,49,235,https://www.sociolla.com/login,93,0,25
+1794366016699,85,HTTP Request order,200,OK,03_cart_load 2-61,text,true,,39422,196,100,235,https://www.sociolla.com/order,80,0,19
+1794366016538,252,HTTP Request order,200,OK,03_cart_load 2-59,text,true,,39422,196,100,235,https://www.sociolla.com/order,249,0,152
+1794366016704,96,HTTP Request order,200,OK,03_cart_load 2-19,text,true,,39422,196,100,235,https://www.sociolla.com/order,92,0,0
+1794366016552,272,04_Halaman_Checkout,200,OK,04_checkout_laod 3-26,text,true,,39422,283,72,235,https://www.sociolla.com/order/shipping,263,0,142
+1794366016791,40,HTTP Request order,200,OK,03_cart_load 2-47,text,true,,39422,196,100,234,https://www.sociolla.com/order,34,0,0
+1794366016606,230,HTTP Request order,200,OK,03_cart_load 2-31,text,true,,39422,196,100,234,https://www.sociolla.com/order,227,0,0
+1794366016809,46,HTTP Request order,200,OK,03_cart_load 2-1,text,true,,39422,196,100,234,https://www.sociolla.com/order,39,0,0
+1794366016626,230,04_Halaman_Checkout,200,OK,04_checkout_laod 3-57,text,true,,39422,283,71,234,https://www.sociolla.com/order/shipping,214,0,175
+1794366016771,86,HTTP Request GET login,200,OK,01_02_login_search_load 1-92,text,true,,39422,228,49,233,https://www.sociolla.com/login,75,0,36
+1794366016755,153,HTTP Request order,200,OK,03_cart_load 2-79,text,true,,39422,196,100,233,https://www.sociolla.com/order,141,0,46
+1794366016823,88,HTTP Request order,200,OK,03_cart_load 2-78,text,true,,39422,196,100,233,https://www.sociolla.com/order,78,0,42
+1794366016792,126,HTTP Request GET search,200,OK,01_02_login_search_load 1-71,text,true,,39422,236,49,233,https://www.sociolla.com/search?page=2,123,0,0
+1794366016877,56,04_Halaman_Checkout,200,OK,04_checkout_laod 3-16,text,true,,39422,283,70,232,https://www.sociolla.com/order/shipping,48,0,16
+1794366016478,512,HTTP Request order,200,OK,03_cart_load 2-53,text,true,,39422,196,100,231,https://www.sociolla.com/order,509,0,0
+1794366006778,10232,Get Payment Methods,504,Gateway Time-out,05_payment_load 4-12,text,false,,504,133,14,231,https://www.sociolla.com/order/shipping,10232,0,198
+1794366016966,68,HTTP Request GET login,200,OK,01_02_login_search_load 1-94,text,true,,39422,228,48,230,https://www.sociolla.com/login,62,0,25
+1794366016929,112,HTTP Request order,200,OK,03_cart_load 2-64,text,true,,39422,196,100,230,https://www.sociolla.com/order,110,0,77
+1794366016989,79,HTTP Request order,200,OK,03_cart_load 2-67,text,true,,39422,196,100,230,https://www.sociolla.com/order,75,0,14
+1794366017042,52,HTTP Request order,200,OK,03_cart_load 2-83,text,true,,39422,196,100,230,https://www.sociolla.com/order,45,0,16
+1794366017069,38,HTTP Request order,200,OK,03_cart_load 2-41,text,true,,39422,196,100,230,https://www.sociolla.com/order,32,0,0
+1794366016809,306,HTTP Request GET search,200,OK,01_02_login_search_load 1-70,text,true,,39422,236,48,230,https://www.sociolla.com/search?page=2,303,0,0
+1794366017032,115,HTTP Request order,200,OK,03_cart_load 2-77,text,true,,39422,196,100,229,https://www.sociolla.com/order,96,0,18
+1794366017066,82,HTTP Request GET login,200,OK,01_02_login_search_load 1-95,text,true,,39422,228,47,229,https://www.sociolla.com/login,67,0,29
+1794366016605,547,HTTP Request order,200,OK,03_cart_load 2-71,text,true,,39422,196,100,229,https://www.sociolla.com/order,538,0,484
+1794366016471,720,HTTP Request GET login,200,OK,01_02_login_search_load 1-89,text,true,,39422,228,47,229,https://www.sociolla.com/login,691,0,647
+1794366017090,103,04_Halaman_Checkout,200,OK,04_checkout_laod 3-49,text,true,,39422,283,69,229,https://www.sociolla.com/order/shipping,78,0,38
+1794366017106,87,04_Halaman_Checkout,200,OK,04_checkout_laod 3-58,text,true,,39422,283,69,229,https://www.sociolla.com/order/shipping,70,0,22
+1794366017124,77,HTTP Request GET search,200,OK,01_02_login_search_load 1-74,text,true,,39422,236,47,227,https://www.sociolla.com/search?page=2,71,0,0
+1794366007078,10124,Get Payment Methods,504,Gateway Time-out,05_payment_load 4-15,text,false,,504,133,13,226,https://www.sociolla.com/order/shipping,10124,0,60
+1794366017161,78,HTTP Request GET search,200,OK,01_02_login_search_load 1-73,text,true,,39422,236,46,225,https://www.sociolla.com/search?page=2,72,0,0
+1794366017223,53,HTTP Request GET search,200,OK,01_02_login_search_load 1-72,text,true,,39422,236,45,224,https://www.sociolla.com/search?page=2,43,0,0
+1794366017200,80,HTTP Request order,200,OK,03_cart_load 2-26,text,true,,39422,196,100,223,https://www.sociolla.com/order,51,0,0
+1794366017149,141,HTTP Request GET search,200,OK,01_02_login_search_load 1-75,text,true,,39422,236,44,223,https://www.sociolla.com/search?page=2,125,0,0
+1794366017242,62,HTTP Request GET search,200,OK,01_02_login_search_load 1-76,text,true,,39422,236,43,222,https://www.sociolla.com/search?page=2,55,0,0
+1794366017167,141,HTTP Request GET login,200,OK,01_02_login_search_load 1-96,text,true,,39422,228,42,221,https://www.sociolla.com/login,124,0,44
+1794366017244,72,04_Halaman_Checkout,200,OK,04_checkout_laod 3-66,text,true,,39422,283,67,221,https://www.sociolla.com/order/shipping,66,0,17
+1794366017407,34,HTTP Request order,200,OK,03_cart_load 2-63,text,true,,39422,196,100,220,https://www.sociolla.com/order,31,0,0
+1794366016762,687,04_Halaman_Checkout,200,OK,04_checkout_laod 3-46,text,true,,39422,283,66,220,https://www.sociolla.com/order/shipping,681,0,596
+1794366017372,99,HTTP Request order,200,OK,03_cart_load 2-20,text,true,,39422,196,100,219,https://www.sociolla.com/order,91,0,0
+1794366017267,215,HTTP Request GET login,200,OK,01_02_login_search_load 1-97,text,true,,39422,228,42,219,https://www.sociolla.com/login,204,0,47
+1794366017395,87,HTTP Request order,200,OK,03_cart_load 2-60,text,true,,39422,196,100,219,https://www.sociolla.com/order,83,0,0
+1794366017266,232,HTTP Request order,200,OK,03_cart_load 2-25,text,true,,39422,196,100,219,https://www.sociolla.com/order,220,0,0
+1794366007472,10054,Get Payment Methods,504,Gateway Time-out,05_payment_load 4-19,text,false,,504,133,12,219,https://www.sociolla.com/order/shipping,10054,0,17
+1794366017381,178,HTTP Request order,200,OK,03_cart_load 2-93,text,true,,39422,196,100,218,https://www.sociolla.com/order,174,0,53
+1794366017242,324,HTTP Request order,200,OK,03_cart_load 2-73,text,true,,39422,196,100,218,https://www.sociolla.com/order,319,0,72
+1794366017465,104,HTTP Request GET login,200,OK,01_02_login_search_load 1-99,text,true,,39422,228,42,218,https://www.sociolla.com/login,84,0,36
+1794366016105,1473,HTTP Request order,200,OK,03_cart_load 2-66,text,true,,39422,196,100,218,https://www.sociolla.com/order,1467,0,1406
+1794366017531,74,HTTP Request GET search,200,OK,01_02_login_search_load 1-79,text,true,,39422,236,42,218,https://www.sociolla.com/search?page=2,71,0,0
+1794366017564,64,HTTP Request GET login,200,OK,01_02_login_search_load 1-100,text,true,,39422,228,41,217,https://www.sociolla.com/login,58,0,28
+1794366017599,67,HTTP Request order,200,OK,03_cart_load 2-56,text,true,,39422,196,100,217,https://www.sociolla.com/order,63,0,0
+1794366017365,301,HTTP Request GET login,200,OK,01_02_login_search_load 1-98,text,true,,39422,228,41,217,https://www.sociolla.com/login,286,0,240
+1794366017504,214,HTTP Request order,200,OK,03_cart_load 2-33,text,true,,39422,196,100,217,https://www.sociolla.com/order,210,0,0
+1794366017688,65,HTTP Request GET search,200,OK,01_02_login_search_load 1-77,text,true,,39422,236,41,217,https://www.sociolla.com/search?page=2,57,0,0
+1794366017689,65,04_Halaman_Checkout,200,OK,04_checkout_laod 3-34,text,true,,39422,283,65,216,https://www.sociolla.com/order/shipping,48,0,18
+1794366017675,92,HTTP Request order,200,OK,03_cart_load 2-81,text,true,,39422,196,100,215,https://www.sociolla.com/order,85,0,43
+1794366017048,745,04_Halaman_Checkout,200,OK,04_checkout_laod 3-23,text,true,,39422,283,64,215,https://www.sociolla.com/order/shipping,741,0,672
+1794366017464,339,04_Halaman_Checkout,200,OK,04_checkout_laod 3-24,text,true,,39422,283,63,214,https://www.sociolla.com/order/shipping,334,0,268
+1794366017711,100,HTTP Request order,200,OK,03_cart_load 2-74,text,true,,39422,196,100,213,https://www.sociolla.com/order,93,0,43
+1794366017797,53,HTTP Request GET search,200,OK,01_02_login_search_load 1-80,text,true,,39422,236,40,213,https://www.sociolla.com/search?page=2,52,0,0
+1794366017875,31,HTTP Request order,200,OK,03_cart_load 2-9,text,true,,39422,196,100,212,https://www.sociolla.com/order,26,0,0
+1794366017385,564,04_Halaman_Checkout,200,OK,04_checkout_laod 3-37,text,true,,39422,283,62,212,https://www.sociolla.com/order/shipping,560,0,495
+1794366017896,62,HTTP Request order,200,OK,03_cart_load 2-65,text,true,,39422,196,100,211,https://www.sociolla.com/order,60,0,0
+1794366017929,35,HTTP Request order,200,OK,03_cart_load 2-29,text,true,,39422,196,100,211,https://www.sociolla.com/order,33,0,0
+1794366017975,37,HTTP Request order,200,OK,03_cart_load 2-39,text,true,,39422,196,100,211,https://www.sociolla.com/order,33,0,0
+1794366017981,72,HTTP Request order,200,OK,03_cart_load 2-94,text,true,,39422,196,100,211,https://www.sociolla.com/order,66,0,27
+1794366017994,59,HTTP Request order,200,OK,03_cart_load 2-87,text,true,,39422,196,100,211,https://www.sociolla.com/order,53,0,19
+1794366017613,466,04_Halaman_Checkout,200,OK,04_checkout_laod 3-28,text,true,,39422,283,61,211,https://www.sociolla.com/order/shipping,466,0,392
+1794366008078,10074,Get Payment Methods,504,Gateway Time-out,05_payment_load 4-25,text,false,,504,133,11,210,https://www.sociolla.com/order/shipping,10074,0,25
+1794366017871,308,HTTP Request order,200,OK,03_cart_load 2-4,text,true,,39422,196,100,209,https://www.sociolla.com/order,305,0,0
+1794366018004,189,04_Halaman_Checkout,200,OK,04_checkout_laod 3-48,text,true,,39422,283,60,209,https://www.sociolla.com/order/shipping,184,0,145
+1794366006578,11620,Get Payment Methods,504,Gateway Time-out,05_payment_load 4-10,text,false,,504,133,10,208,https://www.sociolla.com/order/shipping,11620,0,722
+1794366018135,67,HTTP Request order,200,OK,03_cart_load 2-86,text,true,,39422,196,100,207,https://www.sociolla.com/order,58,0,26
+1794366018171,43,HTTP Request order,200,OK,03_cart_load 2-42,text,true,,39422,196,100,207,https://www.sociolla.com/order,39,0,0
+1794366017618,680,04_Halaman_Checkout,200,OK,04_checkout_laod 3-60,text,true,,39422,283,59,207,https://www.sociolla.com/order/shipping,677,0,635
+1794366018146,159,HTTP Request GET search,200,OK,01_02_login_search_load 1-84,text,true,,39422,236,39,206,https://www.sociolla.com/search?page=2,156,0,0
+1794366018132,203,HTTP Request order,200,OK,03_cart_load 2-18,text,true,,39422,196,100,205,https://www.sociolla.com/order,201,0,0
+1794366018104,276,HTTP Request GET search,200,OK,01_02_login_search_load 1-82,text,true,,39422,236,38,205,https://www.sociolla.com/search?page=2,273,0,0
+1794366018353,34,HTTP Request order,200,OK,03_cart_load 2-37,text,true,,39422,196,100,204,https://www.sociolla.com/order,29,0,0
+1794366018112,324,HTTP Request order,200,OK,03_cart_load 2-51,text,true,,39422,196,100,204,https://www.sociolla.com/order,319,0,0
+1794366018309,127,HTTP Request order,200,OK,03_cart_load 2-90,text,true,,39422,196,100,204,https://www.sociolla.com/order,115,0,50
+1794366018376,73,HTTP Request GET search,200,OK,01_02_login_search_load 1-87,text,true,,39422,236,37,204,https://www.sociolla.com/search?page=2,69,0,0
+1794366017963,497,HTTP Request GET search,200,OK,01_02_login_search_load 1-78,text,true,,39422,236,36,203,https://www.sociolla.com/search?page=2,493,0,0
+1794366018012,459,HTTP Request order,200,OK,03_cart_load 2-75,text,true,,39422,196,100,202,https://www.sociolla.com/order,450,0,400
+1794366018467,33,HTTP Request GET search,200,OK,01_02_login_search_load 1-88,text,true,,39422,236,35,202,https://www.sociolla.com/search?page=2,28,0,0
+1794366018408,101,04_Halaman_Checkout,200,OK,04_checkout_laod 3-31,text,true,,39422,283,58,201,https://www.sociolla.com/order/shipping,83,0,44
+1794366017939,595,04_Halaman_Checkout,200,OK,04_checkout_laod 3-38,text,true,,39422,283,57,200,https://www.sociolla.com/order/shipping,586,0,546
+1794366018503,122,HTTP Request order,200,OK,03_cart_load 2-11,text,true,,39422,196,100,199,https://www.sociolla.com/order,116,0,0
+1794366018358,290,04_Halaman_Checkout,200,OK,04_checkout_laod 3-35,text,true,,39422,283,56,199,https://www.sociolla.com/order/shipping,287,0,103
+1794366018515,208,04_Halaman_Checkout,200,OK,04_checkout_laod 3-44,text,true,,39422,283,55,198,https://www.sociolla.com/order/shipping,194,0,125
+1794366017011,1714,04_Halaman_Checkout,200,OK,04_checkout_laod 3-40,text,true,,39422,283,54,197,https://www.sociolla.com/order/shipping,1708,0,1663
+1794366018627,121,HTTP Request order,200,OK,03_cart_load 2-99,text,true,,39422,196,100,196,https://www.sociolla.com/order,117,0,22
+1794366018647,138,04_Halaman_Checkout,200,OK,04_checkout_laod 3-77,text,true,,39422,283,53,196,https://www.sociolla.com/order/shipping,131,0,57
+1794366018711,83,HTTP Request GET search,200,OK,01_02_login_search_load 1-85,text,true,,39422,236,34,195,https://www.sociolla.com/search?page=2,78,0,0
+1794366018379,421,04_Halaman_Checkout,200,OK,04_checkout_laod 3-71,text,true,,39422,283,52,194,https://www.sociolla.com/order/shipping,372,0,295
+1794366018759,50,HTTP Request order,200,OK,03_cart_load 2-17,text,true,,39422,196,100,193,https://www.sociolla.com/order,46,0,0
+1794366018735,82,HTTP Request GET search,200,OK,01_02_login_search_load 1-90,text,true,,39422,236,33,193,https://www.sociolla.com/search?page=2,79,0,0
+1794366018789,58,HTTP Request order,200,OK,03_cart_load 2-68,text,true,,39422,196,100,192,https://www.sociolla.com/order,55,0,0
+1794366018801,61,HTTP Request order,200,OK,03_cart_load 2-6,text,true,,39422,196,100,192,https://www.sociolla.com/order,58,0,0
+1794366018789,87,HTTP Request order,200,OK,03_cart_load 2-58,text,true,,39422,196,100,192,https://www.sociolla.com/order,85,0,0
+1794366008764,10118,HTTP Request GET login,504,Gateway Time-out,01_02_login_search_load 1-12,text,false,,906,228,32,192,https://www.sociolla.com/login,10118,0,29
+1794366018764,149,HTTP Request GET search,200,OK,01_02_login_search_load 1-91,text,true,,39422,236,32,192,https://www.sociolla.com/search?page=2,141,0,0
+1794366018857,56,HTTP Request GET search,200,OK,01_02_login_search_load 1-92,text,true,,39422,236,32,192,https://www.sociolla.com/search?page=2,45,0,0
+1794366018893,48,HTTP Request order,200,OK,03_cart_load 2-36,text,true,,39422,196,100,190,https://www.sociolla.com/order,45,0,0
+1794366018287,683,HTTP Request GET search,200,OK,01_02_login_search_load 1-83,text,true,,39422,236,30,190,https://www.sociolla.com/search?page=2,680,0,0
+1794366018938,49,HTTP Request order,200,OK,03_cart_load 2-57,text,true,,39422,196,100,189,https://www.sociolla.com/order,44,0,0
+1794366018933,80,HTTP Request order,200,OK,03_cart_load 2-88,text,true,,39422,196,100,189,https://www.sociolla.com/order,73,0,29
+1794366018812,230,04_Halaman_Checkout,200,OK,04_checkout_laod 3-42,text,true,,39422,283,51,189,https://www.sociolla.com/order/shipping,219,0,179
+1794366018681,379,HTTP Request order,200,OK,03_cart_load 2-8,text,true,,39422,196,100,188,https://www.sociolla.com/order,376,0,0
+1794366018901,204,04_Halaman_Checkout,200,OK,04_checkout_laod 3-52,text,true,,39422,283,50,188,https://www.sociolla.com/order/shipping,197,0,149
+1794366019013,139,HTTP Request order,200,OK,03_cart_load 2-35,text,true,,39422,196,100,187,https://www.sociolla.com/order,136,0,0
+1794366019149,45,HTTP Request GET search,200,OK,01_02_login_search_load 1-95,text,true,,39422,236,29,187,https://www.sociolla.com/search?page=2,42,0,0
+1794366019034,199,HTTP Request GET search,200,OK,01_02_login_search_load 1-94,text,true,,39422,236,28,186,https://www.sociolla.com/search?page=2,197,0,0
+1794366019115,123,HTTP Request order,200,OK,03_cart_load 2-54,text,true,,39422,196,100,185,https://www.sociolla.com/order,121,0,0
+1794366009161,10078,HTTP Request GET login,504,Gateway Time-out,01_02_login_search_load 1-16,text,false,,906,228,27,185,https://www.sociolla.com/login,10078,0,22
+1794366019218,39,HTTP Request order,200,OK,03_cart_load 2-31,text,true,,39422,196,100,185,https://www.sociolla.com/order,36,0,0
+1794366019156,106,04_Halaman_Checkout,200,OK,04_checkout_laod 3-56,text,true,,39422,283,49,185,https://www.sociolla.com/order/shipping,93,0,60
+1794366019241,32,HTTP Request order,200,OK,03_cart_load 2-83,text,true,,39422,196,100,184,https://www.sociolla.com/order,29,0,0
+1794366019180,98,04_Halaman_Checkout,200,OK,04_checkout_laod 3-83,text,true,,39422,283,48,184,https://www.sociolla.com/order/shipping,86,0,36
+1794366019268,52,HTTP Request order,200,OK,03_cart_load 2-71,text,true,,39422,196,100,183,https://www.sociolla.com/order,39,0,0
+1794366019283,37,HTTP Request order,200,OK,03_cart_load 2-16,text,true,,39422,196,100,183,https://www.sociolla.com/order,30,0,0
+1794366019087,241,04_Halaman_Checkout,200,OK,04_checkout_laod 3-75,text,true,,39422,283,47,183,https://www.sociolla.com/order/shipping,238,0,73
+1794366019308,72,HTTP Request GET search,200,OK,01_02_login_search_load 1-96,text,true,,39422,236,27,182,https://www.sociolla.com/search?page=2,46,0,0
+1794366019349,92,HTTP Request order,200,OK,03_cart_load 2-53,text,true,,39422,196,100,181,https://www.sociolla.com/order,89,0,0
+1794366019496,61,HTTP Request order,200,OK,03_cart_load 2-89,text,true,,39422,196,100,181,https://www.sociolla.com/order,55,0,24
+1794366019279,289,HTTP Request order,200,OK,03_cart_load 2-2,text,true,,39422,196,100,181,https://www.sociolla.com/order,287,0,0
+1794366019191,399,HTTP Request GET search,200,OK,01_02_login_search_load 1-89,text,true,,39422,236,26,181,https://www.sociolla.com/search?page=2,396,0,0
+1794366019190,444,HTTP Request order,200,OK,03_cart_load 2-92,text,true,,39422,196,100,180,https://www.sociolla.com/order,435,0,396
+1794366009463,10213,HTTP Request GET login,504,Gateway Time-out,01_02_login_search_load 1-19,text,false,,906,228,25,180,https://www.sociolla.com/login,10213,0,148
+1794366019569,115,HTTP Request GET search,200,OK,01_02_login_search_load 1-99,text,true,,39422,236,25,180,https://www.sociolla.com/search?page=2,110,0,0
+1794366019628,75,HTTP Request GET search,200,OK,01_02_login_search_load 1-100,text,true,,39422,236,24,179,https://www.sociolla.com/search?page=2,59,0,0
+1794366019652,52,HTTP Request order,200,OK,03_cart_load 2-48,text,true,,39422,196,100,178,https://www.sociolla.com/order,42,0,0
+1794366019481,228,HTTP Request GET search,200,OK,01_02_login_search_load 1-97,text,true,,39422,236,23,178,https://www.sociolla.com/search?page=2,204,0,0
+1794366019436,274,HTTP Request order,200,OK,03_cart_load 2-97,text,true,,39422,196,100,177,https://www.sociolla.com/order,271,0,24
+1794366009585,10145,HTTP Request order,504,Gateway Time-out,03_cart_load 2-14,text,false,,906,196,100,177,https://www.sociolla.com/order,10145,0,16
+1794366009678,10058,Get Payment Methods,504,Gateway Time-out,05_payment_load 4-41,text,false,,504,133,9,177,https://www.sociolla.com/order/shipping,10058,0,13
+1794366019662,94,04_Halaman_Checkout,200,OK,04_checkout_laod 3-63,text,true,,39422,283,46,176,https://www.sociolla.com/order/shipping,85,0,48
+1794366019747,70,04_Halaman_Checkout,200,OK,04_checkout_laod 3-54,text,true,,39422,283,45,175,https://www.sociolla.com/order/shipping,70,0,23
+1794366019788,43,HTTP Request order,200,OK,03_cart_load 2-33,text,true,,39422,196,100,174,https://www.sociolla.com/order,43,0,0
+1794366019666,260,HTTP Request GET search,200,OK,01_02_login_search_load 1-98,text,true,,39422,236,22,174,https://www.sociolla.com/search?page=2,249,0,0
+1794366019909,46,HTTP Request order,200,OK,03_cart_load 2-19,text,true,,39422,196,100,173,https://www.sociolla.com/order,31,0,0
+1794366009778,10185,Get Payment Methods,504,Gateway Time-out,05_payment_load 4-42,text,false,,504,133,8,173,https://www.sociolla.com/order/shipping,10185,0,86
+1794366019825,208,HTTP Request order,200,OK,03_cart_load 2-76,text,true,,39422,196,100,172,https://www.sociolla.com/order,203,0,0
+1794366019789,251,HTTP Request order,200,OK,03_cart_load 2-100,text,true,,39422,196,100,172,https://www.sociolla.com/order,246,0,178
+1794366020019,46,HTTP Request order,200,OK,03_cart_load 2-69,text,true,,39422,196,100,172,https://www.sociolla.com/order,40,0,0
+1794366020014,86,HTTP Request order,200,OK,03_cart_load 2-77,text,true,,39422,196,100,172,https://www.sociolla.com/order,83,0,0
+1794366020078,42,HTTP Request order,200,OK,03_cart_load 2-13,text,true,,39422,196,100,172,https://www.sociolla.com/order,34,0,0
+1794366020037,83,HTTP Request order,200,OK,03_cart_load 2-95,text,true,,39422,196,100,172,https://www.sociolla.com/order,69,0,28
+1794366019878,253,04_Halaman_Checkout,200,OK,04_checkout_laod 3-45,text,true,,39422,283,44,172,https://www.sociolla.com/order/shipping,249,0,69
+1794366020097,48,HTTP Request order,200,OK,03_cart_load 2-73,text,true,,39422,196,100,171,https://www.sociolla.com/order,37,0,0
+1794366019886,288,HTTP Request order,200,OK,03_cart_load 2-23,text,true,,39422,196,100,171,https://www.sociolla.com/order,278,0,0
+1794366010178,10069,Get Payment Methods,504,Gateway Time-out,05_payment_load 4-46,text,false,,504,133,7,171,https://www.sociolla.com/order/shipping,10069,0,15
+1794366020217,69,04_Halaman_Checkout,200,OK,04_checkout_laod 3-74,text,true,,39422,283,43,170,https://www.sociolla.com/order/shipping,60,0,22
+1794366020278,44,HTTP Request order,200,OK,03_cart_load 2-64,text,true,,39422,196,100,169,https://www.sociolla.com/order,41,0,0
+1794366020283,43,HTTP Request order,200,OK,03_cart_load 2-72,text,true,,39422,196,100,169,https://www.sociolla.com/order,40,0,0
+1794366020199,174,HTTP Request order,200,OK,03_cart_load 2-98,text,true,,39422,196,100,169,https://www.sociolla.com/order,165,0,134
+1794366020308,77,04_Halaman_Checkout,200,OK,04_checkout_laod 3-76,text,true,,39422,283,42,169,https://www.sociolla.com/order/shipping,69,0,34
+1794366020307,111,HTTP Request order,200,OK,03_cart_load 2-26,text,true,,39422,196,100,168,https://www.sociolla.com/order,99,0,0
+1794366020399,36,HTTP Request order,200,OK,03_cart_load 2-47,text,true,,39422,196,100,168,https://www.sociolla.com/order,31,0,0
+1794366020474,35,HTTP Request order,200,OK,03_cart_load 2-37,text,true,,39422,196,100,168,https://www.sociolla.com/order,28,0,0
+1794366020439,77,HTTP Request order,200,OK,03_cart_load 2-24,text,true,,39422,196,100,168,https://www.sociolla.com/order,72,0,0
+1794366020485,47,HTTP Request order,200,OK,03_cart_load 2-9,text,true,,39422,196,100,168,https://www.sociolla.com/order,41,0,0
+1794366020450,85,04_Halaman_Checkout,200,OK,04_checkout_laod 3-50,text,true,,39422,283,41,168,https://www.sociolla.com/order/shipping,71,0,26
+1794366020595,71,HTTP Request order,200,OK,03_cart_load 2-86,text,true,,39422,196,100,167,https://www.sociolla.com/order,49,0,0
+1794366020475,234,HTTP Request order,200,OK,03_cart_load 2-1,text,true,,39422,196,100,167,https://www.sociolla.com/order,212,0,0
+1794366020619,122,HTTP Request order,200,OK,03_cart_load 2-78,text,true,,39422,196,100,167,https://www.sociolla.com/order,102,0,0
+1794366020655,116,HTTP Request order,200,OK,03_cart_load 2-27,text,true,,39422,196,100,167,https://www.sociolla.com/order,111,0,0
+1794366020655,124,HTTP Request order,200,OK,03_cart_load 2-79,text,true,,39422,196,100,167,https://www.sociolla.com/order,121,0,0
+1794366020673,113,HTTP Request order,200,OK,03_cart_load 2-56,text,true,,39422,196,100,167,https://www.sociolla.com/order,110,0,0
+1794366020676,116,HTTP Request order,200,OK,03_cart_load 2-41,text,true,,39422,196,100,167,https://www.sociolla.com/order,112,0,0
+1794366020330,468,HTTP Request order,200,OK,03_cart_load 2-7,text,true,,39422,196,100,167,https://www.sociolla.com/order,465,0,0
+1794366020283,525,04_Halaman_Checkout,200,OK,04_checkout_laod 3-81,text,true,,39422,283,40,167,https://www.sociolla.com/order/shipping,517,0,471
+1794366020618,235,HTTP Request order,200,OK,03_cart_load 2-3,text,true,,39422,196,100,166,https://www.sociolla.com/order,231,0,0
+1794366020678,199,04_Halaman_Checkout,200,OK,04_checkout_laod 3-87,text,true,,39422,283,39,166,https://www.sociolla.com/order/shipping,175,0,136
+1794366020711,182,04_Halaman_Checkout,200,OK,04_checkout_laod 3-65,text,true,,39422,283,38,165,https://www.sociolla.com/order/shipping,170,0,109
+1794366020668,242,04_Halaman_Checkout,200,OK,04_checkout_laod 3-51,text,true,,39422,283,37,164,https://www.sociolla.com/order/shipping,231,0,192
+1794366020907,49,HTTP Request order,200,OK,03_cart_load 2-59,text,true,,39422,196,100,163,https://www.sociolla.com/order,40,0,0
+1794366020945,49,HTTP Request order,200,OK,03_cart_load 2-25,text,true,,39422,196,100,163,https://www.sociolla.com/order,46,0,0
+1794366020882,149,HTTP Request GET search,200,OK,01_02_login_search_load 1-12,text,true,,39422,236,21,163,https://www.sociolla.com/search?page=2,146,0,0
+1794366020561,488,04_Halaman_Checkout,200,OK,04_checkout_laod 3-59,text,true,,39422,283,36,162,https://www.sociolla.com/order/shipping,481,0,411
+1794366020898,184,HTTP Request order,200,OK,03_cart_load 2-39,text,true,,39422,196,100,161,https://www.sociolla.com/order,180,0,0
+1794366021080,34,HTTP Request order,200,OK,03_cart_load 2-87,text,true,,39422,196,100,161,https://www.sociolla.com/order,31,0,0
+1794366021126,58,HTTP Request order,200,OK,03_cart_load 2-5,text,true,,39422,196,100,161,https://www.sociolla.com/order,44,0,0
+1794366021137,52,HTTP Request order,200,OK,03_cart_load 2-61,text,true,,39422,196,100,161,https://www.sociolla.com/order,49,0,0
+1794366021083,116,HTTP Request order,200,OK,03_cart_load 2-90,text,true,,39422,196,100,161,https://www.sociolla.com/order,112,0,0
+1794366021073,138,HTTP Request order,200,OK,03_cart_load 2-93,text,true,,39422,196,100,161,https://www.sociolla.com/order,135,0,0
+1794366011165,10082,HTTP Request GET search,504,Gateway Time-out,01_02_login_search_load 1-7,text,false,,906,236,20,161,https://www.sociolla.com/search?page=2,10082,0,0
+1794366021240,34,HTTP Request GET search,200,OK,01_02_login_search_load 1-16,text,true,,39422,236,19,160,https://www.sociolla.com/search?page=2,30,0,0
+1794366021234,52,HTTP Request order,200,OK,03_cart_load 2-85,text,true,,39422,196,100,159,https://www.sociolla.com/order,47,0,0
+1794366021190,101,HTTP Request order,200,OK,03_cart_load 2-68,text,true,,39422,196,100,159,https://www.sociolla.com/order,98,0,0
+1794366021155,148,HTTP Request order,200,OK,03_cart_load 2-20,text,true,,39422,196,100,159,https://www.sociolla.com/order,143,0,0
+1794366021259,111,04_Halaman_Checkout,200,OK,04_checkout_laod 3-69,text,true,,39422,283,35,159,https://www.sociolla.com/order/shipping,105,0,35
+1794366021303,69,04_Halaman_Checkout,200,OK,04_checkout_laod 3-70,text,true,,39422,283,34,158,https://www.sociolla.com/order/shipping,55,0,21
+1794366020839,549,HTTP Request order,200,OK,03_cart_load 2-94,text,true,,39422,196,100,157,https://www.sociolla.com/order,537,0,0
+1794366021210,207,04_Halaman_Checkout,200,OK,04_checkout_laod 3-61,text,true,,39422,283,33,157,https://www.sociolla.com/order/shipping,191,0,161
+1794366010908,10535,HTTP Request GET search,504,Gateway Time-out,01_02_login_search_load 1-10,text,false,,906,236,18,156,https://www.sociolla.com/search?page=2,10535,0,0
+1794366021386,68,04_Halaman_Checkout,200,OK,04_checkout_laod 3-67,text,true,,39422,283,32,155,https://www.sociolla.com/order/shipping,61,0,23
+1794366021480,40,HTTP Request order,200,OK,03_cart_load 2-66,text,true,,39422,196,100,154,https://www.sociolla.com/order,37,0,0
+1794366021522,51,HTTP Request order,200,OK,03_cart_load 2-4,text,true,,39422,196,100,154,https://www.sociolla.com/order,48,0,0
+1794366021508,96,HTTP Request order,200,OK,03_cart_load 2-42,text,true,,39422,196,100,154,https://www.sociolla.com/order,94,0,0
+1794366011384,10221,HTTP Request order,504,Gateway Time-out,03_cart_load 2-34,text,false,,906,196,100,154,https://www.sociolla.com/order,10221,0,153
+1794366021198,408,04_Halaman_Checkout,200,OK,04_checkout_laod 3-68,text,true,,39422,283,31,154,https://www.sociolla.com/order/shipping,399,0,344
+1794366011379,10228,Get Payment Methods,504,Gateway Time-out,05_payment_load 4-58,text,false,,504,133,6,154,https://www.sociolla.com/order/shipping,10228,0,158
+1794366021570,44,HTTP Request order,200,OK,03_cart_load 2-83,text,true,,39422,196,100,152,https://www.sociolla.com/order,44,0,0
+1794366021523,101,04_Halaman_Checkout,200,OK,04_checkout_laod 3-84,text,true,,39422,283,30,152,https://www.sociolla.com/order/shipping,94,0,57
+1794366021589,72,04_Halaman_Checkout,200,OK,04_checkout_laod 3-72,text,true,,39422,283,29,151,https://www.sociolla.com/order/shipping,66,0,38
+1794366021675,38,HTTP Request GET search,200,OK,01_02_login_search_load 1-19,text,true,,39422,236,17,150,https://www.sociolla.com/search?page=2,35,0,0
+1794366021603,128,HTTP Request order,200,OK,03_cart_load 2-53,text,true,,39422,196,100,149,https://www.sociolla.com/order,123,0,0
+1794366021268,470,04_Halaman_Checkout,200,OK,04_checkout_laod 3-62,text,true,,39422,283,28,149,https://www.sociolla.com/order/shipping,466,0,63
+1794366011572,10167,Get Payment Methods,504,Gateway Time-out,05_payment_load 4-60,text,false,,504,133,5,149,https://www.sociolla.com/order/shipping,10167,0,89
+1794366021723,50,HTTP Request order,200,OK,03_cart_load 2-67,text,true,,39422,196,100,147,https://www.sociolla.com/order,47,0,0
+1794366021480,306,HTTP Request order,200,OK,03_cart_load 2-99,text,true,,39422,196,100,147,https://www.sociolla.com/order,296,0,0
+1794366021669,131,04_Halaman_Checkout,200,OK,04_checkout_laod 3-78,text,true,,39422,283,27,147,https://www.sociolla.com/order/shipping,110,0,72
+1794366021726,79,04_Halaman_Checkout,200,OK,04_checkout_laod 3-89,text,true,,39422,283,26,146,https://www.sociolla.com/order/shipping,75,0,22
+1794366011697,10120,HTTP Request order,504,Gateway Time-out,03_cart_load 2-12,text,false,,906,196,100,145,https://www.sociolla.com/order,10120,0,39
+1794366021753,92,HTTP Request order,200,OK,03_cart_load 2-81,text,true,,39422,196,100,145,https://www.sociolla.com/order,89,0,0
+1794366021682,166,04_Halaman_Checkout,200,OK,04_checkout_laod 3-94,text,true,,39422,283,25,145,https://www.sociolla.com/order/shipping,155,0,112
+1794366021806,66,04_Halaman_Checkout,200,OK,04_checkout_laod 3-93,text,true,,39422,283,24,144,https://www.sociolla.com/order/shipping,62,0,18
+1794366021745,138,HTTP Request order,200,OK,03_cart_load 2-18,text,true,,39422,196,100,143,https://www.sociolla.com/order,133,0,0
+1794366021604,307,HTTP Request order,200,OK,03_cart_load 2-2,text,true,,39422,196,100,143,https://www.sociolla.com/order,305,0,0
+1794366021597,330,04_Halaman_Checkout,200,OK,04_checkout_laod 3-73,text,true,,39422,283,23,143,https://www.sociolla.com/order/shipping,327,0,167
+1794366011662,10267,HTTP Request GET login,504,Gateway Time-out,01_02_login_search_load 1-41,text,false,,906,228,16,142,https://www.sociolla.com/login,10267,0,23
+1794366022002,49,HTTP Request order,200,OK,03_cart_load 2-75,text,true,,39422,196,100,142,https://www.sociolla.com/order,46,0,0
+1794366022043,79,HTTP Request order,200,OK,03_cart_load 2-11,text,true,,39422,196,100,142,https://www.sociolla.com/order,52,0,0
+1794366022087,50,HTTP Request order,200,OK,03_cart_load 2-65,text,true,,39422,196,100,142,https://www.sociolla.com/order,35,0,0
+1794366022121,63,HTTP Request order,200,OK,03_cart_load 2-97,text,true,,39422,196,100,142,https://www.sociolla.com/order,48,0,0
+1794366022104,100,04_Halaman_Checkout,200,OK,04_checkout_laod 3-99,text,true,,39422,283,22,142,https://www.sociolla.com/order/shipping,97,0,34
+1794366011884,10359,HTTP Request order,504,Gateway Time-out,03_cart_load 2-38,text,false,,906,196,100,141,https://www.sociolla.com/order,10359,0,298
+1794366022186,72,HTTP Request order,200,OK,03_cart_load 2-6,text,true,,39422,196,100,141,https://www.sociolla.com/order,53,0,0
+1794366022179,87,HTTP Request order,200,OK,03_cart_load 2-48,text,true,,39422,196,100,141,https://www.sociolla.com/order,84,0,0
+1794366012165,10112,HTTP Request GET login,504,Gateway Time-out,01_02_login_search_load 1-46,text,false,,906,228,16,141,https://www.sociolla.com/login,10112,0,61
+1794366011878,10403,Get Payment Methods,504,Gateway Time-out,05_payment_load 4-63,text,false,,504,133,4,141,https://www.sociolla.com/order/shipping,10403,0,301
+1794366012078,10231,Get Payment Methods,504,Gateway Time-out,05_payment_load 4-65,text,false,,504,133,3,140,https://www.sociolla.com/order/shipping,10231,0,156
+1794366022237,108,HTTP Request order,200,OK,03_cart_load 2-77,text,true,,39422,196,100,139,https://www.sociolla.com/order,103,0,0
+1794366022269,85,04_Halaman_Checkout,200,OK,04_checkout_laod 3-86,text,true,,39422,283,21,139,https://www.sociolla.com/order/shipping,79,0,18
+1794366022316,63,HTTP Request order,200,OK,03_cart_load 2-57,text,true,,39422,196,100,138,https://www.sociolla.com/order,56,0,0
+1794366022317,70,HTTP Request order,200,OK,03_cart_load 2-23,text,true,,39422,196,100,138,https://www.sociolla.com/order,65,0,0
+1794366022361,107,04_Halaman_Checkout,200,OK,04_checkout_laod 3-79,text,true,,39422,283,20,138,https://www.sociolla.com/order/shipping,103,0,27
+1794366012442,10107,HTTP Request order,504,Gateway Time-out,03_cart_load 2-10,text,false,,906,196,100,137,https://www.sociolla.com/order,10107,0,0
+1794366022074,493,HTTP Request order,200,OK,03_cart_load 2-51,text,true,,39422,196,100,137,https://www.sociolla.com/order,488,0,0
+1794366022527,57,HTTP Request order,200,OK,03_cart_load 2-31,text,true,,39422,196,100,137,https://www.sociolla.com/order,49,0,0
+1794366022557,41,HTTP Request order,200,OK,03_cart_load 2-33,text,true,,39422,196,100,137,https://www.sociolla.com/order,29,0,0
+1794366022510,127,04_Halaman_Checkout,200,OK,04_checkout_laod 3-85,text,true,,39422,283,19,137,https://www.sociolla.com/order/shipping,122,0,19
+1794366022229,439,04_Halaman_Checkout,200,OK,04_checkout_laod 3-92,text,true,,39422,283,18,136,https://www.sociolla.com/order/shipping,432,0,241
+1794366022575,153,HTTP Request order,200,OK,03_cart_load 2-54,text,true,,39422,196,100,135,https://www.sociolla.com/order,149,0,0
+1794366022793,47,HTTP Request order,200,OK,03_cart_load 2-88,text,true,,39422,196,100,135,https://www.sociolla.com/order,41,0,0
+1794366022756,93,HTTP Request order,200,OK,03_cart_load 2-100,text,true,,39422,196,100,135,https://www.sociolla.com/order,89,0,0
+1794366022788,120,HTTP Request order,200,OK,03_cart_load 2-73,text,true,,39422,196,100,135,https://www.sociolla.com/order,114,0,0
+1794366022898,58,HTTP Request order,200,OK,03_cart_load 2-78,text,true,,39422,196,100,135,https://www.sociolla.com/order,54,0,0
+1794366022690,277,04_Halaman_Checkout,200,OK,04_checkout_laod 3-96,text,true,,39422,283,17,135,https://www.sociolla.com/order/shipping,272,0,167
+1794366022939,41,HTTP Request order,200,OK,03_cart_load 2-29,text,true,,39422,196,100,134,https://www.sociolla.com/order,35,0,0
+1794366022950,46,HTTP Request order,200,OK,03_cart_load 2-27,text,true,,39422,196,100,134,https://www.sociolla.com/order,38,0,0
+1794366012954,10057,HTTP Request GET search,504,Gateway Time-out,01_02_login_search_load 1-28,text,false,,906,236,16,134,https://www.sociolla.com/search?page=2,10057,0,0
+1794366022942,108,HTTP Request order,200,OK,03_cart_load 2-95,text,true,,39422,196,100,133,https://www.sociolla.com/order,103,0,0
+1794366012862,10191,HTTP Request GET login,504,Gateway Time-out,01_02_login_search_load 1-53,text,false,,906,228,15,133,https://www.sociolla.com/login,10191,0,81
+1794366022982,94,HTTP Request order,200,OK,03_cart_load 2-13,text,true,,39422,196,100,133,https://www.sociolla.com/order,89,0,0
+1794366023066,43,HTTP Request order,200,OK,03_cart_load 2-72,text,true,,39422,196,100,133,https://www.sociolla.com/order,34,0,0
+1794366013050,10070,HTTP Request order,504,Gateway Time-out,03_cart_load 2-50,text,false,,906,196,100,133,https://www.sociolla.com/order,10070,0,22
+1794366023097,50,HTTP Request order,200,OK,03_cart_load 2-17,text,true,,39422,196,100,133,https://www.sociolla.com/order,41,0,0
+1794366023072,99,HTTP Request order,200,OK,03_cart_load 2-58,text,true,,39422,196,100,133,https://www.sociolla.com/order,96,0,0
+1794366023190,48,HTTP Request order,200,OK,03_cart_load 2-3,text,true,,39422,196,100,133,https://www.sociolla.com/order,37,0,0
+1794366023160,87,HTTP Request order,200,OK,03_cart_load 2-14,text,true,,39422,196,100,133,https://www.sociolla.com/order,82,0,0
+1794366013202,10047,HTTP Request GET search,504,Gateway Time-out,01_02_login_search_load 1-34,text,false,,906,236,15,133,https://www.sociolla.com/search?page=2,10047,0,0
+1794366023237,48,HTTP Request order,200,OK,03_cart_load 2-8,text,true,,39422,196,100,132,https://www.sociolla.com/order,43,0,0
+1794366023176,140,HTTP Request order,200,OK,03_cart_load 2-19,text,true,,39422,196,100,132,https://www.sociolla.com/order,127,0,0
+1794366023259,63,HTTP Request order,200,OK,03_cart_load 2-16,text,true,,39422,196,100,132,https://www.sociolla.com/order,57,0,0
+1794366023314,62,HTTP Request order,200,OK,03_cart_load 2-87,text,true,,39422,196,100,132,https://www.sociolla.com/order,56,0,0
+1794366013255,10141,HTTP Request order,504,Gateway Time-out,03_cart_load 2-32,text,false,,906,196,100,132,https://www.sociolla.com/order,10141,0,40
+1794366023357,85,HTTP Request order,200,OK,03_cart_load 2-71,text,true,,39422,196,100,132,https://www.sociolla.com/order,76,0,0
+1794366023124,332,04_Halaman_Checkout,200,OK,04_checkout_laod 3-82,text,true,,39422,283,16,132,https://www.sociolla.com/order/shipping,326,0,165
+1794366023284,173,04_Halaman_Checkout,200,OK,04_checkout_laod 3-100,text,true,,39422,283,15,131,https://www.sociolla.com/order/shipping,147,0,105
+1794366023424,82,04_Halaman_Checkout,200,OK,04_checkout_laod 3-95,text,true,,39422,283,14,130,https://www.sociolla.com/order/shipping,72,0,41
+1794366013402,10152,HTTP Request order,504,Gateway Time-out,03_cart_load 2-28,text,false,,906,196,100,129,https://www.sociolla.com/order,10152,0,0
+1794366023533,39,HTTP Request order,200,OK,03_cart_load 2-36,text,true,,39422,196,100,129,https://www.sociolla.com/order,34,0,0
+1794366013263,10333,HTTP Request GET login,504,Gateway Time-out,01_02_login_search_load 1-57,text,false,,906,228,14,129,https://www.sociolla.com/login,10333,0,297
+1794366023532,63,04_Halaman_Checkout,200,OK,04_checkout_laod 3-80,text,true,,39422,283,13,129,https://www.sociolla.com/order/shipping,54,0,19
+1794366013452,10144,04_Halaman_Checkout,504,Gateway Time-out,04_checkout_laod 3-15,text,false,Kode HTTP tidak sesuai harapan (200),906,283,13,129,https://www.sociolla.com/order/shipping,10144,0,33
+1794366023555,56,HTTP Request order,200,OK,03_cart_load 2-76,text,true,,39422,196,100,127,https://www.sociolla.com/order,49,0,0
+1794366013564,10082,HTTP Request GET login,504,Gateway Time-out,01_02_login_search_load 1-60,text,false,,906,228,14,127,https://www.sociolla.com/login,10082,0,43
+1794366023574,84,04_Halaman_Checkout,200,OK,04_checkout_laod 3-88,text,true,,39422,283,11,127,https://www.sociolla.com/order/shipping,79,0,37
+1794366023679,33,HTTP Request order,200,OK,03_cart_load 2-69,text,true,,39422,196,100,126,https://www.sociolla.com/order,25,0,0
+1794366013462,10256,HTTP Request GET login,504,Gateway Time-out,01_02_login_search_load 1-59,text,false,,906,228,14,126,https://www.sociolla.com/login,10256,0,145
+1794366023773,60,HTTP Request order,200,OK,03_cart_load 2-5,text,true,,39422,196,100,126,https://www.sociolla.com/order,55,0,0
+1794366023914,49,HTTP Request order,200,OK,03_cart_load 2-89,text,true,,39422,196,100,126,https://www.sociolla.com/order,43,0,0
+1794366023886,88,HTTP Request order,200,OK,03_cart_load 2-35,text,true,,39422,196,100,126,https://www.sociolla.com/order,83,0,0
+1794366023884,99,HTTP Request order,200,OK,03_cart_load 2-7,text,true,,39422,196,100,126,https://www.sociolla.com/order,93,0,0
+1794366023931,119,HTTP Request GET search,200,OK,01_02_login_search_load 1-41,text,true,,39422,236,14,126,https://www.sociolla.com/search?page=2,115,0,0
+1794366024017,41,HTTP Request order,200,OK,03_cart_load 2-37,text,true,,39422,196,100,125,https://www.sociolla.com/order,37,0,0
+1794366013576,10576,HTTP Request order,504,Gateway Time-out,03_cart_load 2-46,text,false,,906,196,100,125,https://www.sociolla.com/order,10576,0,411
+1794366024161,49,HTTP Request order,200,OK,03_cart_load 2-56,text,true,,39422,196,100,125,https://www.sociolla.com/order,45,0,0
+1794366024161,57,HTTP Request order,200,OK,03_cart_load 2-64,text,true,,39422,196,100,125,https://www.sociolla.com/order,52,0,0
+1794366024176,53,HTTP Request order,200,OK,03_cart_load 2-25,text,true,,39422,196,100,125,https://www.sociolla.com/order,49,0,0
+1794366014163,10066,HTTP Request GET login,504,Gateway Time-out,01_02_login_search_load 1-66,text,false,,906,228,13,125,https://www.sociolla.com/login,10066,0,32
+1794366014180,10072,Get Payment Methods,504,Gateway Time-out,05_payment_load 4-86,text,false,,504,133,2,125,https://www.sociolla.com/order/shipping,10072,0,34
+1794366013661,10639,HTTP Request order,504,Gateway Time-out,03_cart_load 2-49,text,false,,906,196,100,124,https://www.sociolla.com/order,10639,0,584
+1794366024279,49,HTTP Request order,200,OK,03_cart_load 2-81,text,true,,39422,196,100,124,https://www.sociolla.com/order,40,0,0
+1794366024279,49,HTTP Request GET search,200,OK,01_02_login_search_load 1-46,text,true,,39422,236,13,124,https://www.sociolla.com/search?page=2,36,0,0
+1794366024322,49,HTTP Request order,200,OK,03_cart_load 2-41,text,true,,39422,196,100,123,https://www.sociolla.com/order,45,0,0
+1794366024293,90,HTTP Request order,200,OK,03_cart_load 2-92,text,true,,39422,196,100,123,https://www.sociolla.com/order,85,0,0
+1794366024232,161,HTTP Request order,200,OK,03_cart_load 2-18,text,true,,39422,196,100,123,https://www.sociolla.com/order,156,0,0
+1794366024339,58,HTTP Request order,200,OK,03_cart_load 2-99,text,true,,39422,196,100,123,https://www.sociolla.com/order,34,0,0
+1794366024313,87,HTTP Request order,200,OK,03_cart_load 2-26,text,true,,39422,196,100,123,https://www.sociolla.com/order,50,0,0
+1794366024315,115,HTTP Request order,200,OK,03_cart_load 2-34,text,true,,39422,196,100,123,https://www.sociolla.com/order,111,0,0
+1794366014463,10067,HTTP Request GET login,504,Gateway Time-out,01_02_login_search_load 1-69,text,false,,906,228,12,123,https://www.sociolla.com/login,10067,0,22
+1794366024502,65,HTTP Request order,200,OK,03_cart_load 2-53,text,true,,39422,196,100,123,https://www.sociolla.com/order,62,0,0
+1794366023980,603,HTTP Request order,200,OK,03_cart_load 2-90,text,true,,39422,196,100,123,https://www.sociolla.com/order,599,0,0
+1794366014473,10122,HTTP Request order,504,Gateway Time-out,03_cart_load 2-62,text,false,,906,196,100,123,https://www.sociolla.com/order,10122,0,69
+1794366024500,95,HTTP Request order,200,OK,03_cart_load 2-47,text,true,,39422,196,100,123,https://www.sociolla.com/order,86,0,0
+1794366024483,124,HTTP Request order,200,OK,03_cart_load 2-39,text,true,,39422,196,100,123,https://www.sociolla.com/order,120,0,0
+1794366014561,10076,HTTP Request GET search,504,Gateway Time-out,01_02_login_search_load 1-48,text,false,,906,236,12,123,https://www.sociolla.com/search?page=2,10076,0,0
+1794366024489,176,HTTP Request order,200,OK,03_cart_load 2-85,text,true,,39422,196,100,122,https://www.sociolla.com/order,165,0,0
+1794366024422,253,04_Halaman_Checkout,200,OK,04_checkout_laod 3-90,text,true,,39422,283,10,122,https://www.sociolla.com/order/shipping,247,0,77
+1794366024606,77,04_Halaman_Checkout,200,OK,04_checkout_laod 3-97,text,true,,39422,283,9,121,https://www.sociolla.com/order/shipping,74,0,19
+1794366024662,40,HTTP Request order,200,OK,03_cart_load 2-1,text,true,,39422,196,100,120,https://www.sociolla.com/order,36,0,0
+1794366024655,61,HTTP Request order,200,OK,03_cart_load 2-20,text,true,,39422,196,100,120,https://www.sociolla.com/order,58,0,0
+1794366024783,40,HTTP Request order,200,OK,03_cart_load 2-12,text,true,,39422,196,100,120,https://www.sociolla.com/order,37,0,0
+1794366014830,10135,04_Halaman_Checkout,504,Gateway Time-out,04_checkout_laod 3-19,text,false,Kode HTTP tidak sesuai harapan (200),906,283,8,120,https://www.sociolla.com/order/shipping,10135,0,83
+1794366014955,10081,HTTP Request order,504,Gateway Time-out,03_cart_load 2-44,text,false,,906,196,100,119,https://www.sociolla.com/order,10081,0,39
+1794366025054,70,HTTP Request GET search,200,OK,01_02_login_search_load 1-53,text,true,,39422,236,11,119,https://www.sociolla.com/search?page=2,68,0,0
+1794366024535,637,04_Halaman_Checkout,200,OK,04_checkout_laod 3-98,text,true,,39422,283,7,118,https://www.sociolla.com/order/shipping,635,0,572
+1794366025136,88,HTTP Request order,200,OK,03_cart_load 2-68,text,true,,39422,196,100,117,https://www.sociolla.com/order,79,0,0
+1794366025158,95,HTTP Request order,200,OK,03_cart_load 2-97,text,true,,39422,196,100,117,https://www.sociolla.com/order,94,0,0
+1794366015166,10094,HTTP Request GET search,504,Gateway Time-out,01_02_login_search_load 1-55,text,false,,906,236,10,117,https://www.sociolla.com/search?page=2,10094,0,0
+1794366025221,102,HTTP Request order,200,OK,03_cart_load 2-24,text,true,,39422,196,100,116,https://www.sociolla.com/order,101,0,0
+1794366015294,10034,HTTP Request order,504,Gateway Time-out,03_cart_load 2-21,text,false,,906,196,100,116,https://www.sociolla.com/order,10034,0,0
+1794366025332,49,HTTP Request order,200,OK,03_cart_load 2-98,text,true,,39422,196,100,116,https://www.sociolla.com/order,46,0,0
+1794366025337,50,HTTP Request order,200,OK,03_cart_load 2-6,text,true,,39422,196,100,116,https://www.sociolla.com/order,46,0,0
+1794366025339,53,HTTP Request order,200,OK,03_cart_load 2-86,text,true,,39422,196,100,116,https://www.sociolla.com/order,49,0,0
+1794366025348,55,HTTP Request order,200,OK,03_cart_load 2-65,text,true,,39422,196,100,116,https://www.sociolla.com/order,52,0,0
+1794366025390,70,HTTP Request order,200,OK,03_cart_load 2-57,text,true,,39422,196,100,116,https://www.sociolla.com/order,67,0,0
+1794366025376,167,HTTP Request order,200,OK,03_cart_load 2-10,text,true,,39422,196,100,116,https://www.sociolla.com/order,160,0,0
+1794366025540,30,HTTP Request order,200,OK,03_cart_load 2-2,text,true,,39422,196,100,116,https://www.sociolla.com/order,28,0,0
+1794366025490,103,HTTP Request order,200,OK,03_cart_load 2-9,text,true,,39422,196,100,116,https://www.sociolla.com/order,100,0,0
+1794366025582,43,HTTP Request order,200,OK,03_cart_load 2-3,text,true,,39422,196,100,116,https://www.sociolla.com/order,42,0,0
+1794366025602,58,HTTP Request GET search,200,OK,01_02_login_search_load 1-57,text,true,,39422,236,9,116,https://www.sociolla.com/search?page=2,54,0,0
+1794366025608,65,HTTP Request order,200,OK,03_cart_load 2-83,text,true,,39422,196,100,115,https://www.sociolla.com/order,62,0,0
+1794366025608,75,HTTP Request order,200,OK,03_cart_load 2-79,text,true,,39422,196,100,115,https://www.sociolla.com/order,70,0,0
+1794366025361,332,HTTP Request order,200,OK,03_cart_load 2-16,text,true,,39422,196,100,115,https://www.sociolla.com/order,330,0,0
+1794366025647,62,HTTP Request GET search,200,OK,01_02_login_search_load 1-60,text,true,,39422,236,8,115,https://www.sociolla.com/search?page=2,38,0,0
+1794366015742,10034,HTTP Request order,504,Gateway Time-out,03_cart_load 2-40,text,false,,906,196,100,114,https://www.sociolla.com/order,10034,0,0
+1794366025718,71,HTTP Request GET search,200,OK,01_02_login_search_load 1-59,text,true,,39422,236,7,114,https://www.sociolla.com/search?page=2,69,0,0
+1794366015669,10137,HTTP Request GET login,504,Gateway Time-out,01_02_login_search_load 1-81,text,false,,906,228,6,113,https://www.sociolla.com/login,10137,0,49
+1794366025692,168,HTTP Request order,200,OK,03_cart_load 2-59,text,true,,39422,196,100,113,https://www.sociolla.com/order,166,0,0
+1794366025830,40,HTTP Request order,200,OK,03_cart_load 2-73,text,true,,39422,196,100,113,https://www.sociolla.com/order,37,0,0
+1794366025838,36,HTTP Request order,200,OK,03_cart_load 2-61,text,true,,39422,196,100,113,https://www.sociolla.com/order,33,0,0
+1794366025823,86,HTTP Request order,200,OK,03_cart_load 2-4,text,true,,39422,196,100,113,https://www.sociolla.com/order,84,0,0
+1794366025851,65,HTTP Request order,200,OK,03_cart_load 2-87,text,true,,39422,196,100,113,https://www.sociolla.com/order,52,0,0
+1794366025912,46,HTTP Request order,200,OK,03_cart_load 2-23,text,true,,39422,196,100,113,https://www.sociolla.com/order,40,0,0
+1794366025696,275,HTTP Request order,200,OK,03_cart_load 2-100,text,true,,39422,196,100,113,https://www.sociolla.com/order,272,0,0
+1794366026002,32,HTTP Request order,200,OK,03_cart_load 2-33,text,true,,39422,196,100,113,https://www.sociolla.com/order,27,0,0
+1794366025995,41,HTTP Request order,200,OK,03_cart_load 2-28,text,true,,39422,196,100,113,https://www.sociolla.com/order,36,0,0
+1794366026063,81,HTTP Request order,200,OK,03_cart_load 2-93,text,true,,39422,196,100,113,https://www.sociolla.com/order,78,0,0
+1794366026104,57,HTTP Request order,200,OK,03_cart_load 2-95,text,true,,39422,196,100,113,https://www.sociolla.com/order,52,0,0
+1794366016111,10056,04_Halaman_Checkout,504,Gateway Time-out,04_checkout_laod 3-9,text,false,Kode HTTP tidak sesuai harapan (200),906,283,6,113,https://www.sociolla.com/order/shipping,10056,0,25
+1794366026129,43,HTTP Request order,200,OK,03_cart_load 2-78,text,true,,39422,196,100,112,https://www.sociolla.com/order,42,0,0
+1794366026156,40,HTTP Request order,200,OK,03_cart_load 2-8,text,true,,39422,196,100,112,https://www.sociolla.com/order,38,0,0
+1794366016093,10119,HTTP Request GET search,504,Gateway Time-out,01_02_login_search_load 1-62,text,false,,906,236,6,112,https://www.sociolla.com/search?page=2,10119,0,0
+1794366026209,46,HTTP Request order,200,OK,03_cart_load 2-42,text,true,,39422,196,100,111,https://www.sociolla.com/order,43,0,0
+1794366026015,245,HTTP Request order,200,OK,03_cart_load 2-54,text,true,,39422,196,100,111,https://www.sociolla.com/order,241,0,0
+1794366026215,48,HTTP Request order,200,OK,03_cart_load 2-38,text,true,,39422,196,100,111,https://www.sociolla.com/order,45,0,0
+1794366026227,41,HTTP Request order,200,OK,03_cart_load 2-5,text,true,,39422,196,100,111,https://www.sociolla.com/order,37,0,0
+1794366026166,106,HTTP Request order,200,OK,03_cart_load 2-29,text,true,,39422,196,100,111,https://www.sociolla.com/order,104,0,0
+1794366016165,10107,HTTP Request GET login,504,Gateway Time-out,01_02_login_search_load 1-86,text,false,,906,228,5,111,https://www.sociolla.com/login,10107,0,41
+1794366026231,45,HTTP Request GET search,200,OK,01_02_login_search_load 1-66,text,true,,39422,236,5,111,https://www.sociolla.com/search?page=2,44,0,0
+1794366026007,284,HTTP Request order,200,OK,03_cart_load 2-48,text,true,,39422,196,100,110,https://www.sociolla.com/order,282,0,0
+1794366026274,45,HTTP Request order,200,OK,03_cart_load 2-19,text,true,,39422,196,100,110,https://www.sociolla.com/order,44,0,0
+1794366026255,168,HTTP Request order,200,OK,03_cart_load 2-77,text,true,,39422,196,100,110,https://www.sociolla.com/order,137,0,0
+1794366014280,12163,Get Payment Methods,504,Gateway Time-out,05_payment_load 4-87,text,false,,504,133,1,110,https://www.sociolla.com/order/shipping,12163,0,2104
+1794366026452,40,HTTP Request order,200,OK,03_cart_load 2-66,text,true,,39422,196,100,109,https://www.sociolla.com/order,38,0,0
+1794366016440,10071,04_Halaman_Checkout,504,Gateway Time-out,04_checkout_laod 3-27,text,false,Kode HTTP tidak sesuai harapan (200),906,283,5,109,https://www.sociolla.com/order/shipping,10071,0,16
+1794366025203,1310,HTTP Request order,200,OK,03_cart_load 2-94,text,true,,39422,196,100,108,https://www.sociolla.com/order,1306,0,0
+1794366026476,42,HTTP Request order,200,OK,03_cart_load 2-67,text,true,,39422,196,100,108,https://www.sociolla.com/order,39,0,0
+1794366026527,96,HTTP Request order,200,OK,03_cart_load 2-51,text,true,,39422,196,100,108,https://www.sociolla.com/order,81,0,0
+1794366026519,156,HTTP Request order,200,OK,03_cart_load 2-31,text,true,,39422,196,100,108,https://www.sociolla.com/order,128,0,0
+1794366026501,215,HTTP Request order,200,OK,03_cart_load 2-14,text,true,,39422,196,100,108,https://www.sociolla.com/order,198,0,0
+1794366026635,124,HTTP Request order,200,OK,03_cart_load 2-37,text,true,,39422,196,100,108,https://www.sociolla.com/order,112,0,0
+1794366026619,195,HTTP Request order,200,OK,03_cart_load 2-11,text,true,,39422,196,100,108,https://www.sociolla.com/order,170,0,0
+1794366026532,286,HTTP Request GET search,200,OK,01_02_login_search_load 1-69,text,true,,39422,236,4,108,https://www.sociolla.com/search?page=2,283,0,0
+1794366026775,50,HTTP Request order,200,OK,03_cart_load 2-58,text,true,,39422,196,100,107,https://www.sociolla.com/order,47,0,0
+1794366026788,43,HTTP Request order,200,OK,03_cart_load 2-25,text,true,,39422,196,100,107,https://www.sociolla.com/order,39,0,0
+1794366026592,262,HTTP Request order,200,OK,03_cart_load 2-17,text,true,,39422,196,100,107,https://www.sociolla.com/order,259,0,0
+1794366026819,42,HTTP Request order,200,OK,03_cart_load 2-32,text,true,,39422,196,100,107,https://www.sociolla.com/order,39,0,0
+1794366026655,245,HTTP Request order,200,OK,03_cart_load 2-75,text,true,,39422,196,100,107,https://www.sociolla.com/order,242,0,0
+1794366016417,10487,04_Halaman_Checkout,504,Gateway Time-out,04_checkout_laod 3-47,text,false,Kode HTTP tidak sesuai harapan (200),906,283,4,107,https://www.sociolla.com/order/shipping,10487,0,414
+1794366026851,98,HTTP Request order,200,OK,03_cart_load 2-13,text,true,,39422,196,100,106,https://www.sociolla.com/order,95,0,0
+1794366026935,65,HTTP Request order,200,OK,03_cart_load 2-50,text,true,,39422,196,100,106,https://www.sociolla.com/order,62,0,0
+1794366026976,51,HTTP Request order,200,OK,03_cart_load 2-85,text,true,,39422,196,100,106,https://www.sociolla.com/order,33,0,0
+1794366026978,53,HTTP Request order,200,OK,03_cart_load 2-35,text,true,,39422,196,100,106,https://www.sociolla.com/order,49,0,0
+1794366024614,2451,04_Halaman_Checkout,200,OK,04_checkout_laod 3-91,text,true,,39422,283,3,106,https://www.sociolla.com/order/shipping,2442,0,2393
+1794366027019,75,HTTP Request order,200,OK,03_cart_load 2-18,text,true,,39422,196,100,105,https://www.sociolla.com/order,60,0,0
+1794366016866,10281,HTTP Request GET login,504,Gateway Time-out,01_02_login_search_load 1-93,text,false,,906,228,3,105,https://www.sociolla.com/login,10281,0,252
+1794366027176,33,HTTP Request order,200,OK,03_cart_load 2-89,text,true,,39422,196,100,105,https://www.sociolla.com/order,30,0,0
+1794366027168,63,HTTP Request order,200,OK,03_cart_load 2-69,text,true,,39422,196,100,105,https://www.sociolla.com/order,56,0,0
+1794366027231,42,HTTP Request order,200,OK,03_cart_load 2-88,text,true,,39422,196,100,105,https://www.sociolla.com/order,40,0,0
+1794366027238,45,HTTP Request order,200,OK,03_cart_load 2-99,text,true,,39422,196,100,105,https://www.sociolla.com/order,45,0,0
+1794366027294,44,HTTP Request order,200,OK,03_cart_load 2-72,text,true,,39422,196,100,105,https://www.sociolla.com/order,38,0,0
+1794366017112,10269,HTTP Request order,504,Gateway Time-out,03_cart_load 2-80,text,false,,906,196,100,105,https://www.sociolla.com/order,10269,0,38
+1794366027199,219,HTTP Request order,200,OK,03_cart_load 2-92,text,true,,39422,196,100,105,https://www.sociolla.com/order,204,0,0
+1794366017499,10053,HTTP Request order,504,Gateway Time-out,03_cart_load 2-96,text,false,,906,196,100,105,https://www.sociolla.com/order,10053,0,17
+1794366017440,10182,HTTP Request order,504,Gateway Time-out,03_cart_load 2-45,text,false,,906,196,100,105,https://www.sociolla.com/order,10182,0,0
+1794366027571,139,HTTP Request order,200,OK,03_cart_load 2-47,text,true,,39422,196,100,105,https://www.sociolla.com/order,136,0,0
+1794366017659,10150,HTTP Request order,504,Gateway Time-out,03_cart_load 2-91,text,false,,906,196,100,105,https://www.sociolla.com/order,10150,0,18
+1794366027807,34,HTTP Request GET search,200,OK,01_02_login_search_load 1-81,text,true,,39422,236,3,105,https://www.sociolla.com/search?page=2,32,0,0
+1794366027810,64,HTTP Request order,200,OK,03_cart_load 2-12,text,true,,39422,196,100,104,https://www.sociolla.com/order,61,0,0
+1794366027919,53,HTTP Request order,200,OK,03_cart_load 2-21,text,true,,39422,196,100,104,https://www.sociolla.com/order,50,0,0
+1794366027829,187,HTTP Request order,200,OK,03_cart_load 2-27,text,true,,39422,196,100,104,https://www.sociolla.com/order,183,0,0
+1794366028197,52,HTTP Request order,200,OK,03_cart_load 2-41,text,true,,39422,196,100,104,https://www.sociolla.com/order,40,0,0
+1794366028208,50,HTTP Request order,200,OK,03_cart_load 2-76,text,true,,39422,196,100,104,https://www.sociolla.com/order,47,0,0
+1794366028227,42,HTTP Request order,200,OK,03_cart_load 2-81,text,true,,39422,196,100,104,https://www.sociolla.com/order,37,0,0
+1794366018131,10178,HTTP Request order,504,Gateway Time-out,03_cart_load 2-30,text,false,,906,196,100,104,https://www.sociolla.com/order,10178,0,0
+1794366028258,65,HTTP Request order,200,OK,03_cart_load 2-1,text,true,,39422,196,100,104,https://www.sociolla.com/order,61,0,0
+1794366028248,88,HTTP Request order,200,OK,03_cart_load 2-59,text,true,,39422,196,100,104,https://www.sociolla.com/order,84,0,0
+1794366028283,71,HTTP Request order,200,OK,03_cart_load 2-26,text,true,,39422,196,100,104,https://www.sociolla.com/order,56,0,0
+1794366028300,62,HTTP Request order,200,OK,03_cart_load 2-71,text,true,,39422,196,100,104,https://www.sociolla.com/order,60,0,0
+1794366028345,43,HTTP Request order,200,OK,03_cart_load 2-65,text,true,,39422,196,100,104,https://www.sociolla.com/order,40,0,0
+1794366018345,10064,HTTP Request order,504,Gateway Time-out,03_cart_load 2-15,text,false,,906,196,100,104,https://www.sociolla.com/order,10064,0,0
+1794366028251,161,HTTP Request order,200,OK,03_cart_load 2-64,text,true,,39422,196,100,104,https://www.sociolla.com/order,158,0,0
+1794366027996,459,HTTP Request order,200,OK,03_cart_load 2-61,text,true,,39422,196,100,104,https://www.sociolla.com/order,453,0,0
+1794366028418,41,HTTP Request order,200,OK,03_cart_load 2-57,text,true,,39422,196,100,104,https://www.sociolla.com/order,37,0,0
+1794366028388,78,HTTP Request order,200,OK,03_cart_load 2-36,text,true,,39422,196,100,104,https://www.sociolla.com/order,75,0,0
+1794366028345,142,HTTP Request order,200,OK,03_cart_load 2-56,text,true,,39422,196,100,104,https://www.sociolla.com/order,139,0,0
+1794366028454,54,HTTP Request order,200,OK,03_cart_load 2-42,text,true,,39422,196,100,104,https://www.sociolla.com/order,51,0,0
+1794366028434,85,HTTP Request order,200,OK,03_cart_load 2-100,text,true,,39422,196,100,104,https://www.sociolla.com/order,83,0,0
+1794366018242,10288,HTTP Request order,504,Gateway Time-out,03_cart_load 2-70,text,false,,906,196,100,104,https://www.sociolla.com/order,10288,0,0
+1794366028434,136,HTTP Request order,200,OK,03_cart_load 2-87,text,true,,39422,196,100,104,https://www.sociolla.com/order,133,0,0
+1794366028273,319,HTTP Request GET search,200,OK,01_02_login_search_load 1-86,text,true,,39422,236,2,104,https://www.sociolla.com/search?page=2,316,0,0
+1794366028501,159,HTTP Request order,200,OK,03_cart_load 2-86,text,true,,39422,196,100,103,https://www.sociolla.com/order,138,0,0
+1794366028578,86,HTTP Request order,200,OK,03_cart_load 2-78,text,true,,39422,196,100,103,https://www.sociolla.com/order,84,0,0
+1794366018558,10121,HTTP Request order,504,Gateway Time-out,03_cart_load 2-52,text,false,,906,196,100,103,https://www.sociolla.com/order,10121,0,0
+1794366018598,10087,04_Halaman_Checkout,504,Gateway Time-out,04_checkout_laod 3-43,text,false,Kode HTTP tidak sesuai harapan (200),906,283,2,103,https://www.sociolla.com/order/shipping,10087,0,27
+1794366028694,43,HTTP Request order,200,OK,03_cart_load 2-49,text,true,,39422,196,100,102,https://www.sociolla.com/order,38,0,0
+1794366028740,58,HTTP Request order,200,OK,03_cart_load 2-20,text,true,,39422,196,100,102,https://www.sociolla.com/order,55,0,0
+1794366018778,10033,HTTP Request order,504,Gateway Time-out,03_cart_load 2-84,text,false,,906,196,100,102,https://www.sociolla.com/order,10033,0,0
+1794366028852,43,HTTP Request order,200,OK,03_cart_load 2-7,text,true,,39422,196,100,102,https://www.sociolla.com/order,38,0,0
+1794366028870,51,HTTP Request order,200,OK,03_cart_load 2-68,text,true,,39422,196,100,102,https://www.sociolla.com/order,48,0,0
+1794366028775,146,HTTP Request order,200,OK,03_cart_load 2-6,text,true,,39422,196,100,102,https://www.sociolla.com/order,135,0,0
+1794366028860,83,HTTP Request order,200,OK,03_cart_load 2-48,text,true,,39422,196,100,102,https://www.sociolla.com/order,80,0,0
+1794366028887,65,HTTP Request order,200,OK,03_cart_load 2-46,text,true,,39422,196,100,102,https://www.sociolla.com/order,61,0,0
+1794366028889,82,HTTP Request order,200,OK,03_cart_load 2-10,text,true,,39422,196,100,102,https://www.sociolla.com/order,75,0,0
+1794366028499,503,HTTP Request order,200,OK,03_cart_load 2-5,text,true,,39422,196,100,102,https://www.sociolla.com/order,500,0,0
+1794366028979,32,HTTP Request order,200,OK,03_cart_load 2-28,text,true,,39422,196,100,102,https://www.sociolla.com/order,28,0,0
+1794366028722,296,HTTP Request order,200,OK,03_cart_load 2-53,text,true,,39422,196,100,102,https://www.sociolla.com/order,291,0,0
+1794366028740,328,HTTP Request order,200,OK,03_cart_load 2-90,text,true,,39422,196,100,102,https://www.sociolla.com/order,325,0,0
+1794366028721,362,HTTP Request order,200,OK,03_cart_load 2-97,text,true,,39422,196,100,102,https://www.sociolla.com/order,359,0,0
+1794366029030,91,HTTP Request order,200,OK,03_cart_load 2-34,text,true,,39422,196,100,102,https://www.sociolla.com/order,88,0,0
+1794366029054,82,HTTP Request order,200,OK,03_cart_load 2-85,text,true,,39422,196,100,102,https://www.sociolla.com/order,77,0,0
+1794366028998,156,HTTP Request order,200,OK,03_cart_load 2-13,text,true,,39422,196,100,102,https://www.sociolla.com/order,154,0,0
+1794366029187,57,HTTP Request order,200,OK,03_cart_load 2-38,text,true,,39422,196,100,102,https://www.sociolla.com/order,54,0,0
+1794366029147,109,HTTP Request GET search,200,OK,01_02_login_search_load 1-93,text,true,,39422,236,1,102,https://www.sociolla.com/search?page=2,106,0,0
+1794366029330,52,HTTP Request order,200,OK,03_cart_load 2-16,text,true,,39422,196,100,101,https://www.sociolla.com/order,49,0,0
+1794366029360,40,HTTP Request order,200,OK,03_cart_load 2-62,text,true,,39422,196,100,101,https://www.sociolla.com/order,38,0,0
+1794366029337,83,HTTP Request order,200,OK,03_cart_load 2-39,text,true,,39422,196,100,101,https://www.sociolla.com/order,80,0,0
+1794366029156,320,HTTP Request order,200,OK,03_cart_load 2-35,text,true,,39422,196,100,101,https://www.sociolla.com/order,305,0,0
+1794366029423,59,HTTP Request order,200,OK,03_cart_load 2-73,text,true,,39422,196,100,101,https://www.sociolla.com/order,56,0,0
+1794366029516,72,HTTP Request order,200,OK,03_cart_load 2-37,text,true,,39422,196,100,101,https://www.sociolla.com/order,66,0,0
+1794366019561,10058,HTTP Request order,504,Gateway Time-out,03_cart_load 2-82,text,false,,906,196,100,101,https://www.sociolla.com/order,10058,0,0
+1794366029609,40,HTTP Request order,200,OK,03_cart_load 2-93,text,true,,39422,196,100,101,https://www.sociolla.com/order,35,0,0
+1794366019479,10169,HTTP Request order,504,Gateway Time-out,03_cart_load 2-43,text,false,,906,196,100,101,https://www.sociolla.com/order,10169,0,0
+1794366029270,406,HTTP Request order,200,OK,03_cart_load 2-29,text,true,,39422,196,100,101,https://www.sociolla.com/order,400,0,0
+1794366029445,238,HTTP Request order,200,OK,03_cart_load 2-19,text,true,,39422,196,100,101,https://www.sociolla.com/order,235,0,0
+1794366019609,10099,04_Halaman_Checkout,504,Gateway Time-out,04_checkout_laod 3-64,text,false,Kode HTTP tidak sesuai harapan (200),906,283,1,101,https://www.sociolla.com/order/shipping,10099,0,30
+1794366019548,10177,HTTP Request order,504,Gateway Time-out,03_cart_load 2-63,text,false,,906,196,100,100,https://www.sociolla.com/order,10177,0,0
+1794366029671,100,HTTP Request order,200,OK,03_cart_load 2-14,text,true,,39422,196,100,100,https://www.sociolla.com/order,97,0,0
+1794366019327,10457,HTTP Request order,504,Gateway Time-out,03_cart_load 2-55,text,false,,906,196,100,100,https://www.sociolla.com/order,10457,0,0
+1794366029720,90,HTTP Request order,200,OK,03_cart_load 2-96,text,true,,39422,196,100,100,https://www.sociolla.com/order,68,0,0
+1794366029772,43,HTTP Request order,200,OK,03_cart_load 2-79,text,true,,39422,196,100,100,https://www.sociolla.com/order,39,0,0
+1794366029752,77,HTTP Request order,200,OK,03_cart_load 2-31,text,true,,39422,196,100,100,https://www.sociolla.com/order,74,0,0
+1794366029584,249,HTTP Request order,200,OK,03_cart_load 2-44,text,true,,39422,196,100,100,https://www.sociolla.com/order,246,0,0
+1794366029628,229,HTTP Request order,200,OK,03_cart_load 2-24,text,true,,39422,196,100,100,https://www.sociolla.com/order,227,0,0
+1794366019876,10029,HTTP Request order,504,Gateway Time-out,03_cart_load 2-22,text,false,,906,196,100,100,https://www.sociolla.com/order,10029,0,0
+1794366029903,56,HTTP Request order,200,OK,03_cart_load 2-8,text,true,,39422,196,100,100,https://www.sociolla.com/order,51,0,0
+1794366029916,78,HTTP Request order,200,OK,03_cart_load 2-45,text,true,,39422,196,100,100,https://www.sociolla.com/order,76,0,0
+1794366029984,60,HTTP Request order,200,OK,03_cart_load 2-23,text,true,,39422,196,100,100,https://www.sociolla.com/order,56,0,0
+1794366030011,39,HTTP Request order,200,OK,03_cart_load 2-54,text,true,,39422,196,100,100,https://www.sociolla.com/order,34,0,0
+1794366029771,288,HTTP Request order,200,OK,03_cart_load 2-17,text,true,,39422,196,100,100,https://www.sociolla.com/order,285,0,0
+1794366029810,254,HTTP Request order,200,OK,03_cart_load 2-94,text,true,,39422,196,100,100,https://www.sociolla.com/order,251,0,0
+1794366030002,84,HTTP Request order,200,OK,03_cart_load 2-99,text,true,,39422,196,100,100,https://www.sociolla.com/order,79,0,0
+1794366029536,626,HTTP Request order,200,OK,03_cart_load 2-3,text,true,,39422,196,100,100,https://www.sociolla.com/order,624,0,0
+1794366030121,66,HTTP Request order,200,OK,03_cart_load 2-40,text,true,,39422,196,100,100,https://www.sociolla.com/order,59,0,0
+1794366030229,32,HTTP Request order,200,OK,03_cart_load 2-50,text,true,,39422,196,100,100,https://www.sociolla.com/order,30,0,0
+1794366030164,113,HTTP Request order,200,OK,03_cart_load 2-58,text,true,,39422,196,100,100,https://www.sociolla.com/order,111,0,0
+1794366030229,86,HTTP Request order,200,OK,03_cart_load 2-66,text,true,,39422,196,100,100,https://www.sociolla.com/order,83,0,0
+1794366030341,64,HTTP Request order,200,OK,03_cart_load 2-32,text,true,,39422,196,100,100,https://www.sociolla.com/order,62,0,0
+1794366030330,95,HTTP Request order,200,OK,03_cart_load 2-98,text,true,,39422,196,100,100,https://www.sociolla.com/order,93,0,0
+1794366030473,44,HTTP Request order,200,OK,03_cart_load 2-27,text,true,,39422,196,100,100,https://www.sociolla.com/order,43,0,0
+1794366030516,34,HTTP Request order,200,OK,03_cart_load 2-80,text,true,,39422,196,100,100,https://www.sociolla.com/order,32,0,0
+1794366030526,36,HTTP Request order,200,OK,03_cart_load 2-9,text,true,,39422,196,100,100,https://www.sociolla.com/order,30,0,0
+1794366030529,37,HTTP Request order,200,OK,03_cart_load 2-83,text,true,,39422,196,100,100,https://www.sociolla.com/order,34,0,0
+1794366030367,388,HTTP Request order,200,OK,03_cart_load 2-2,text,true,,39422,196,100,100,https://www.sociolla.com/order,387,0,0
+1794366030619,160,HTTP Request order,200,OK,03_cart_load 2-42,text,true,,39422,196,100,100,https://www.sociolla.com/order,158,0,0
+1794366030757,31,HTTP Request order,200,OK,03_cart_load 2-72,text,true,,39422,196,100,100,https://www.sociolla.com/order,28,0,0
+1794366030680,126,HTTP Request order,200,OK,03_cart_load 2-67,text,true,,39422,196,100,100,https://www.sociolla.com/order,122,0,0
+1794366030706,106,HTTP Request order,200,OK,03_cart_load 2-33,text,true,,39422,196,100,100,https://www.sociolla.com/order,100,0,0
+1794366030721,92,HTTP Request order,200,OK,03_cart_load 2-57,text,true,,39422,196,100,100,https://www.sociolla.com/order,90,0,0
+1794366030791,38,HTTP Request order,200,OK,03_cart_load 2-100,text,true,,39422,196,100,100,https://www.sociolla.com/order,33,0,0
+1794366030868,37,HTTP Request order,200,OK,03_cart_load 2-91,text,true,,39422,196,100,100,https://www.sociolla.com/order,32,0,0
+1794366020872,10051,HTTP Request order,504,Gateway Time-out,03_cart_load 2-74,text,false,,906,196,100,100,https://www.sociolla.com/order,10051,0,0
+1794366030891,72,HTTP Request order,200,OK,03_cart_load 2-12,text,true,,39422,196,100,100,https://www.sociolla.com/order,59,0,0
+1794366020937,10041,HTTP Request order,504,Gateway Time-out,03_cart_load 2-60,text,false,,906,196,100,100,https://www.sociolla.com/order,10041,0,0
+1794366030956,57,HTTP Request order,200,OK,03_cart_load 2-95,text,true,,39422,196,99,99,https://www.sociolla.com/order,55,0,0
+1794366030878,172,HTTP Request order,200,OK,03_cart_load 2-4,text,true,,39422,196,99,99,https://www.sociolla.com/order,170,0,0
+1794366031016,49,HTTP Request order,200,OK,03_cart_load 2-64,text,true,,39422,196,99,99,https://www.sociolla.com/order,46,0,0
+1794366031047,107,HTTP Request order,200,OK,03_cart_load 2-51,text,true,,39422,196,99,99,https://www.sociolla.com/order,105,0,0
+1794366031196,39,HTTP Request order,200,OK,03_cart_load 2-56,text,true,,39422,196,99,99,https://www.sociolla.com/order,36,0,0
+1794366031242,48,HTTP Request order,200,OK,03_cart_load 2-75,text,true,,39422,196,99,99,https://www.sociolla.com/order,45,0,0
+1794366031207,113,HTTP Request order,200,OK,03_cart_load 2-87,text,true,,39422,196,99,99,https://www.sociolla.com/order,110,0,0
+1794366031242,84,HTTP Request order,200,OK,03_cart_load 2-61,text,true,,39422,196,99,99,https://www.sociolla.com/order,82,0,0
+1794366031242,86,HTTP Request order,200,OK,03_cart_load 2-69,text,true,,39422,196,99,99,https://www.sociolla.com/order,77,0,0
+1794366031315,28,HTTP Request order,200,OK,03_cart_load 2-77,text,true,,39422,196,99,99,https://www.sociolla.com/order,26,0,0
+1794366031314,41,HTTP Request order,200,OK,03_cart_load 2-25,text,true,,39422,196,99,99,https://www.sociolla.com/order,39,0,0
+1794366031100,293,HTTP Request order,200,OK,03_cart_load 2-53,text,true,,39422,196,99,99,https://www.sociolla.com/order,290,0,0
+1794366031382,66,HTTP Request order,200,OK,03_cart_load 2-65,text,true,,39422,196,99,99,https://www.sociolla.com/order,64,0,0
+1794366031527,43,HTTP Request order,200,OK,03_cart_load 2-84,text,true,,39422,196,99,99,https://www.sociolla.com/order,42,0,0
+1794366031556,53,HTTP Request order,200,OK,03_cart_load 2-35,text,true,,39422,196,99,99,https://www.sociolla.com/order,51,0,0
+1794366031691,37,HTTP Request order,200,OK,03_cart_load 2-76,text,true,,39422,196,99,99,https://www.sociolla.com/order,34,0,0
+1794366031506,262,HTTP Request order,200,OK,03_cart_load 2-47,text,true,,39422,196,98,98,https://www.sociolla.com/order,260,0,0
+1794366031751,53,HTTP Request order,200,OK,03_cart_load 2-13,text,true,,39422,196,97,97,https://www.sociolla.com/order,50,0,0
+1794366031794,56,HTTP Request order,200,OK,03_cart_load 2-19,text,true,,39422,196,97,97,https://www.sociolla.com/order,53,0,0
+1794366031811,130,HTTP Request order,200,OK,03_cart_load 2-81,text,true,,39422,196,96,96,https://www.sociolla.com/order,127,0,0
+1794366031798,174,HTTP Request order,200,OK,03_cart_load 2-18,text,true,,39422,196,95,95,https://www.sociolla.com/order,172,0,0
+1794366031948,56,HTTP Request order,200,OK,03_cart_load 2-88,text,true,,39422,196,95,95,https://www.sociolla.com/order,51,0,0
+1794366031720,291,HTTP Request order,200,OK,03_cart_load 2-11,text,true,,39422,196,94,94,https://www.sociolla.com/order,288,0,0
+1794366031947,80,HTTP Request order,200,OK,03_cart_load 2-41,text,true,,39422,196,94,94,https://www.sociolla.com/order,57,0,0
+1794366031947,89,HTTP Request order,200,OK,03_cart_load 2-71,text,true,,39422,196,94,94,https://www.sociolla.com/order,85,0,0
+1794366031823,255,HTTP Request order,200,OK,03_cart_load 2-14,text,true,,39422,196,93,93,https://www.sociolla.com/order,253,0,0
+1794366032063,49,HTTP Request order,200,OK,03_cart_load 2-24,text,true,,39422,196,93,93,https://www.sociolla.com/order,46,0,0
+1794366031883,331,HTTP Request order,200,OK,03_cart_load 2-46,text,true,,39422,196,93,93,https://www.sociolla.com/order,328,0,0
+1794366031956,262,HTTP Request order,200,OK,03_cart_load 2-59,text,true,,39422,196,93,93,https://www.sociolla.com/order,259,0,0
+1794366032191,37,HTTP Request order,200,OK,03_cart_load 2-23,text,true,,39422,196,92,92,https://www.sociolla.com/order,34,0,0
+1794366032087,177,HTTP Request order,200,OK,03_cart_load 2-26,text,true,,39422,196,91,91,https://www.sociolla.com/order,174,0,0
+1794366032247,40,HTTP Request order,200,OK,03_cart_load 2-21,text,true,,39422,196,91,91,https://www.sociolla.com/order,38,0,0
+1794366032204,111,HTTP Request order,200,OK,03_cart_load 2-48,text,true,,39422,196,91,91,https://www.sociolla.com/order,109,0,0
+1794366032304,50,HTTP Request order,200,OK,03_cart_load 2-7,text,true,,39422,196,90,90,https://www.sociolla.com/order,47,0,0
+1794366032324,46,HTTP Request order,200,OK,03_cart_load 2-78,text,true,,39422,196,89,89,https://www.sociolla.com/order,41,0,0
+1794366032207,166,HTTP Request order,200,OK,03_cart_load 2-89,text,true,,39422,196,88,88,https://www.sociolla.com/order,162,0,0
+1794366032404,46,HTTP Request order,200,OK,03_cart_load 2-36,text,true,,39422,196,87,87,https://www.sociolla.com/order,32,0,0
+1794366032350,114,HTTP Request order,200,OK,03_cart_load 2-92,text,true,,39422,196,86,86,https://www.sociolla.com/order,107,0,0
+1794366032416,49,HTTP Request order,200,OK,03_cart_load 2-40,text,true,,39422,196,85,85,https://www.sociolla.com/order,46,0,0
+1794366032421,58,HTTP Request order,200,OK,03_cart_load 2-30,text,true,,39422,196,84,84,https://www.sociolla.com/order,55,0,0
+1794366032373,145,HTTP Request order,200,OK,03_cart_load 2-49,text,true,,39422,196,84,84,https://www.sociolla.com/order,143,0,0
+1794366032506,74,HTTP Request order,200,OK,03_cart_load 2-90,text,true,,39422,196,84,84,https://www.sociolla.com/order,59,0,0
+1794366032548,85,HTTP Request order,200,OK,03_cart_load 2-16,text,true,,39422,196,83,83,https://www.sociolla.com/order,71,0,0
+1794366032583,108,HTTP Request order,200,OK,03_cart_load 2-22,text,true,,39422,196,82,82,https://www.sociolla.com/order,88,0,0
+1794366032634,98,HTTP Request order,200,OK,03_cart_load 2-55,text,true,,39422,196,81,81,https://www.sociolla.com/order,71,0,0
+1794366032688,63,HTTP Request order,200,OK,03_cart_load 2-37,text,true,,39422,196,81,81,https://www.sociolla.com/order,59,0,0
+1794366032686,90,HTTP Request order,200,OK,03_cart_load 2-62,text,true,,39422,196,80,80,https://www.sociolla.com/order,87,0,0
+1794366032801,39,HTTP Request order,200,OK,03_cart_load 2-28,text,true,,39422,196,80,80,https://www.sociolla.com/order,36,0,0
+1794366032850,70,HTTP Request order,200,OK,03_cart_load 2-82,text,true,,39422,196,79,79,https://www.sociolla.com/order,66,0,0
+1794366032851,97,HTTP Request order,200,OK,03_cart_load 2-58,text,true,,39422,196,79,79,https://www.sociolla.com/order,90,0,0
+1794366032859,96,HTTP Request order,200,OK,03_cart_load 2-50,text,true,,39422,196,78,78,https://www.sociolla.com/order,82,0,0
+1794366032915,65,HTTP Request order,200,OK,03_cart_load 2-2,text,true,,39422,196,78,78,https://www.sociolla.com/order,62,0,0
+1794366032830,157,HTTP Request order,200,OK,03_cart_load 2-38,text,true,,39422,196,77,77,https://www.sociolla.com/order,154,0,0
+1794366032425,598,HTTP Request order,200,OK,03_cart_load 2-1,text,true,,39422,196,76,76,https://www.sociolla.com/order,592,0,0
+1794366032655,373,HTTP Request order,200,OK,03_cart_load 2-44,text,true,,39422,196,75,75,https://www.sociolla.com/order,369,0,0
+1794366032832,227,HTTP Request order,200,OK,03_cart_load 2-63,text,true,,39422,196,74,74,https://www.sociolla.com/order,215,0,0
+1794366033048,61,HTTP Request order,200,OK,03_cart_load 2-15,text,true,,39422,196,73,73,https://www.sociolla.com/order,56,0,0
+1794366033023,147,HTTP Request order,200,OK,03_cart_load 2-17,text,true,,39422,196,72,72,https://www.sociolla.com/order,145,0,0
+1794366032996,187,HTTP Request order,200,OK,03_cart_load 2-45,text,true,,39422,196,71,71,https://www.sociolla.com/order,184,0,0
+1794366033220,57,HTTP Request order,200,OK,03_cart_load 2-6,text,true,,39422,196,70,70,https://www.sociolla.com/order,54,0,0
+1794366033257,36,HTTP Request order,200,OK,03_cart_load 2-56,text,true,,39422,196,69,69,https://www.sociolla.com/order,31,0,0
+1794366033301,78,HTTP Request order,200,OK,03_cart_load 2-20,text,true,,39422,196,68,68,https://www.sociolla.com/order,73,0,0
+1794366033358,49,HTTP Request order,200,OK,03_cart_load 2-70,text,true,,39422,196,67,67,https://www.sociolla.com/order,46,0,0
+1794366033389,69,HTTP Request order,200,OK,03_cart_load 2-29,text,true,,39422,196,66,66,https://www.sociolla.com/order,67,0,0
+1794366033463,94,HTTP Request order,200,OK,03_cart_load 2-52,text,true,,39422,196,65,65,https://www.sociolla.com/order,91,0,0
+1794366033528,45,HTTP Request order,200,OK,03_cart_load 2-77,text,true,,39422,196,64,64,https://www.sociolla.com/order,32,0,0
+1794366033526,53,HTTP Request order,200,OK,03_cart_load 2-66,text,true,,39422,196,63,63,https://www.sociolla.com/order,50,0,0
+1794366033543,46,HTTP Request order,200,OK,03_cart_load 2-86,text,true,,39422,196,62,62,https://www.sociolla.com/order,41,0,0
+1794366033465,147,HTTP Request order,200,OK,03_cart_load 2-99,text,true,,39422,196,61,61,https://www.sociolla.com/order,141,0,0
+1794366033559,149,HTTP Request order,200,OK,03_cart_load 2-32,text,true,,39422,196,60,60,https://www.sociolla.com/order,146,0,0
+1794366033416,297,HTTP Request order,200,OK,03_cart_load 2-31,text,true,,39422,196,59,59,https://www.sociolla.com/order,294,0,0
+1794366033598,123,HTTP Request order,200,OK,03_cart_load 2-85,text,true,,39422,196,58,58,https://www.sociolla.com/order,120,0,0
+1794366033669,65,HTTP Request order,200,OK,03_cart_load 2-67,text,true,,39422,196,57,57,https://www.sociolla.com/order,62,0,0
+1794366033719,42,HTTP Request order,200,OK,03_cart_load 2-5,text,true,,39422,196,56,56,https://www.sociolla.com/order,39,0,0
+1794366033689,116,HTTP Request order,200,OK,03_cart_load 2-10,text,true,,39422,196,55,55,https://www.sociolla.com/order,115,0,0
+1794366033821,31,HTTP Request order,200,OK,03_cart_load 2-34,text,true,,39422,196,54,54,https://www.sociolla.com/order,26,0,0
+1794366033680,182,HTTP Request order,200,OK,03_cart_load 2-64,text,true,,39422,196,53,53,https://www.sociolla.com/order,179,0,0
+1794366033716,262,HTTP Request order,200,OK,03_cart_load 2-74,text,true,,39422,196,52,52,https://www.sociolla.com/order,256,0,0
+1794366033832,176,HTTP Request order,200,OK,03_cart_load 2-68,text,true,,39422,196,51,51,https://www.sociolla.com/order,173,0,0
+1794366033959,89,HTTP Request order,200,OK,03_cart_load 2-79,text,true,,39422,196,50,50,https://www.sociolla.com/order,86,0,0
+1794366033801,271,HTTP Request order,200,OK,03_cart_load 2-72,text,true,,39422,196,49,49,https://www.sociolla.com/order,270,0,0
+1794366034047,49,HTTP Request order,200,OK,03_cart_load 2-27,text,true,,39422,196,48,48,https://www.sociolla.com/order,46,0,0
+1794366033913,218,HTTP Request order,200,OK,03_cart_load 2-73,text,true,,39422,196,47,47,https://www.sociolla.com/order,213,0,0
+1794366034063,77,HTTP Request order,200,OK,03_cart_load 2-97,text,true,,39422,196,46,46,https://www.sociolla.com/order,72,0,0
+1794366034001,141,HTTP Request order,200,OK,03_cart_load 2-80,text,true,,39422,196,45,45,https://www.sociolla.com/order,130,0,0
+1794366034108,58,HTTP Request order,200,OK,03_cart_load 2-39,text,true,,39422,196,44,44,https://www.sociolla.com/order,48,0,0
+1794366034101,96,HTTP Request order,200,OK,03_cart_load 2-96,text,true,,39422,196,43,43,https://www.sociolla.com/order,93,0,0
+1794366034280,36,HTTP Request order,200,OK,03_cart_load 2-54,text,true,,39422,196,42,42,https://www.sociolla.com/order,33,0,0
+1794366034194,127,HTTP Request order,200,OK,03_cart_load 2-43,text,true,,39422,196,41,41,https://www.sociolla.com/order,125,0,0
+1794366034315,75,HTTP Request order,200,OK,03_cart_load 2-57,text,true,,39422,196,40,40,https://www.sociolla.com/order,73,0,0
+1794366034407,47,HTTP Request order,200,OK,03_cart_load 2-69,text,true,,39422,196,39,39,https://www.sociolla.com/order,44,0,0
+1794366034384,87,HTTP Request order,200,OK,03_cart_load 2-100,text,true,,39422,196,38,38,https://www.sociolla.com/order,83,0,0
+1794366034438,65,HTTP Request order,200,OK,03_cart_load 2-83,text,true,,39422,196,37,37,https://www.sociolla.com/order,61,0,0
+1794366034427,85,HTTP Request order,200,OK,03_cart_load 2-33,text,true,,39422,196,36,36,https://www.sociolla.com/order,78,0,0
+1794366034449,70,HTTP Request order,200,OK,03_cart_load 2-75,text,true,,39422,196,35,35,https://www.sociolla.com/order,65,0,0
+1794366034457,140,HTTP Request order,200,OK,03_cart_load 2-91,text,true,,39422,196,34,34,https://www.sociolla.com/order,138,0,0
+1794366034355,293,HTTP Request order,200,OK,03_cart_load 2-18,text,true,,39422,196,33,33,https://www.sociolla.com/order,288,0,0
+1794366034156,500,HTTP Request order,200,OK,03_cart_load 2-4,text,true,,39422,196,32,32,https://www.sociolla.com/order,494,0,0
+1794366034614,47,HTTP Request order,200,OK,03_cart_load 2-12,text,true,,39422,196,31,31,https://www.sociolla.com/order,44,0,0
+1794366034452,221,HTTP Request order,200,OK,03_cart_load 2-94,text,true,,39422,196,30,30,https://www.sociolla.com/order,213,0,0
+1794366034516,159,HTTP Request order,200,OK,03_cart_load 2-93,text,true,,39422,196,29,29,https://www.sociolla.com/order,112,0,0
+1794366034551,156,HTTP Request order,200,OK,03_cart_load 2-95,text,true,,39422,196,28,28,https://www.sociolla.com/order,153,0,0
+1794366034427,403,HTTP Request order,200,OK,03_cart_load 2-26,text,true,,39422,196,27,27,https://www.sociolla.com/order,373,0,0
+1794366034784,61,HTTP Request order,200,OK,03_cart_load 2-25,text,true,,39422,196,26,26,https://www.sociolla.com/order,50,0,0
+1794366034794,62,HTTP Request order,200,OK,03_cart_load 2-51,text,true,,39422,196,25,25,https://www.sociolla.com/order,53,0,0
+1794366034708,152,HTTP Request order,200,OK,03_cart_load 2-3,text,true,,39422,196,24,24,https://www.sociolla.com/order,148,0,0
+1794366034738,128,HTTP Request order,200,OK,03_cart_load 2-11,text,true,,39422,196,23,23,https://www.sociolla.com/order,124,0,0
+1794366034828,46,HTTP Request order,200,OK,03_cart_load 2-55,text,true,,39422,196,22,22,https://www.sociolla.com/order,40,0,0
+1794366034734,191,HTTP Request order,200,OK,03_cart_load 2-8,text,true,,39422,196,21,21,https://www.sociolla.com/order,186,0,0
+1794366034693,240,HTTP Request order,200,OK,03_cart_load 2-84,text,true,,39422,196,20,20,https://www.sociolla.com/order,236,0,0
+1794366034728,221,HTTP Request order,200,OK,03_cart_load 2-46,text,true,,39422,196,19,19,https://www.sociolla.com/order,217,0,0
+1794366034905,50,HTTP Request order,200,OK,03_cart_load 2-30,text,true,,39422,196,18,18,https://www.sociolla.com/order,45,0,0
+1794366034957,79,HTTP Request order,200,OK,03_cart_load 2-14,text,true,,39422,196,17,17,https://www.sociolla.com/order,68,0,0
+1794366034981,61,HTTP Request order,200,OK,03_cart_load 2-50,text,true,,39422,196,16,16,https://www.sociolla.com/order,59,0,0
+1794366034960,93,HTTP Request order,200,OK,03_cart_load 2-24,text,true,,39422,196,15,15,https://www.sociolla.com/order,91,0,0
+1794366035059,47,HTTP Request order,200,OK,03_cart_load 2-41,text,true,,39422,196,14,14,https://www.sociolla.com/order,35,0,0
+1794366035024,117,HTTP Request order,200,OK,03_cart_load 2-13,text,true,,39422,196,13,13,https://www.sociolla.com/order,114,0,0
+1794366035108,55,HTTP Request order,200,OK,03_cart_load 2-49,text,true,,39422,196,12,12,https://www.sociolla.com/order,43,0,0
+1794366035123,58,HTTP Request order,200,OK,03_cart_load 2-53,text,true,,39422,196,11,11,https://www.sociolla.com/order,52,0,0
+1794366035202,50,HTTP Request order,200,OK,03_cart_load 2-9,text,true,,39422,196,10,10,https://www.sociolla.com/order,47,0,0
+1794366035189,77,HTTP Request order,200,OK,03_cart_load 2-98,text,true,,39422,196,9,9,https://www.sociolla.com/order,75,0,0
+1794366035316,64,HTTP Request order,200,OK,03_cart_load 2-82,text,true,,39422,196,8,8,https://www.sociolla.com/order,61,0,0
+1794366035347,72,HTTP Request order,200,OK,03_cart_load 2-87,text,true,,39422,196,7,7,https://www.sociolla.com/order,58,0,0
+1794366035386,99,HTTP Request order,200,OK,03_cart_load 2-62,text,true,,39422,196,6,6,https://www.sociolla.com/order,95,0,0
+1794366035430,60,HTTP Request order,200,OK,03_cart_load 2-61,text,true,,39422,196,5,5,https://www.sociolla.com/order,57,0,0
+1794366035476,37,HTTP Request order,200,OK,03_cart_load 2-21,text,true,,39422,196,4,4,https://www.sociolla.com/order,31,0,0
+1794366035393,128,HTTP Request order,200,OK,03_cart_load 2-42,text,true,,39422,196,3,3,https://www.sociolla.com/order,124,0,0
+1794366035299,293,HTTP Request order,200,OK,03_cart_load 2-35,text,true,,39422,196,2,2,https://www.sociolla.com/order,290,0,0
+1794366035571,54,HTTP Request order,200,OK,03_cart_load 2-65,text,true,,39422,196,1,1,https://www.sociolla.com/order,44,0,0
