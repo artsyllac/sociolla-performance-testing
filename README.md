@@ -27,23 +27,26 @@ Pengujian difokuskan pada 5 alur transaksi belanja bertahap:
 ## 📁 Struktur Repositori
 
 ```text
-├── .gitignore
-├── README.md
+sociolla-performance-testing/
+├── results/
+│   ├── Summary Report Load Test 100 users
+│   ├── Summary Report Stress Test 300 users
+│   └── Summary Report Stress Test 500 users
+├── screenshots/
+│   ├── sociolla-load-test-100-users-graph.png
+│   ├── sociolla-stress-test-300-users-graph.png
+│   └── sociolla-stress-test-500-users-graph.png
 ├── scripts/
-│   ├── individual/             # Script JMX per alur fitur
-│   │   ├── 01_login.jmx
-│   │   ├── 02_search.jmx
+│   ├── individual/
+│   │   ├── 01_02_login_search_load.jmx
 │   │   ├── 03_cart.jmx
 │   │   ├── 04_checkout.jmx
 │   │   └── 05_payment.jmx
-│   └── master/                 # Script JMX gabungan (End-to-End Flow)
-│       └── master_sociolla_flow.jmx
-├── results/                    # Output data pengujian (.jtl / .csv)
-│   ├── load_test_result.jtl
-│   └── stress_test_result.jtl
-└── screenshots/                # Bukti grafik performa (JMeter Aggregate / Graph)
-    ├── load_test_graph.png
-    └── stress_test_graph.png
+│   └── master/
+│       └── merged.jmx
+├── .gitignore
+└── README.md                           (keluaran run, tidak di-commit)
+
 ```
 ## ⚙️ Persyaratan Lingkungan (Prerequisites)
 
